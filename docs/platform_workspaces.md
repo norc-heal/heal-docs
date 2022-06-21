@@ -1,10 +1,10 @@
-### e) Workspaces
+## e) Workspaces
 
 HEAL Platform workspaces are secure data analysis environments in the cloud that can access data from one or more data resources. By default, Workspaces include Jupyter notebooks, Python and RStudio, but can be configured to host virtually any application, including analysis workflows, data processing pipelines, or data visualization apps.
 
 New to Jupyter? Learn more about the popular tool for data scientists on [Jupyter.org](https://jupyter.org/) (disclaimer: CTDS is not responsible for the content).
 
-#### Guideline to get started
+### Guideline to get started
 
 1.  Users need to log in via [healdata.org/login](https://healdata.org/login) to access workspaces.
   
@@ -93,7 +93,7 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
 
 Further reading: read more about how to download data files into the Workspaces [here](#DownloadFilesSDKWorkspaces).
 
-#### Upload, save, and download Files/Notebooks
+### Upload, save, and download Files/Notebooks
 
 Users can upload data files or Notebooks from the local machine to the home directory by clicking on “Upload” and access them in the Notebook (see below).
 
@@ -117,7 +117,7 @@ Users can download notebooks by clicking "File" - "Download as", as shown below.
 
 Download the notebook as ".ipynb".
 
-#### Environments, Languages, and Tools
+### Environments, Languages, and Tools
 
 The following environments are available in the workspaces:
 
@@ -137,7 +137,7 @@ The following tools are available in Jupyter Notebooks:
 
 *   GitHub ([read GitHub documentation](https://docs.github.com/en))
 
-#### Python 3 and RStudio in Jupyter
+### Python 3 and RStudio in Jupyter
 
 Both Python 3 and RStudio are available in Jupyter Notebooks.  
 Users can expect to be able to use typical Python or RStudio packages, such as PyPI or CRAN. For Python and RStudio, users can start a new notebook under "New", as shown below.
@@ -146,7 +146,7 @@ Users can expect to be able to use typical Python or RStudio packages, such as P
 
 Find Python 3 or RStudio when starting a new notebook under “New”.
 
-#### STATA in Jupyter
+### STATA in Jupyter
 
 STATA is available as language in Jupyter notebooks (either in Python or R kernels), but requires a license and a specific workspace.
 
@@ -175,11 +175,11 @@ Setup the license in the first cell.
 
 Users can then begin using the notebook by typing in known STATA commands, for example `%% stata . describe` .
 
-#### Troubleshooting
+### Troubleshooting
 
 *   If the kernel died, make sure to be logged in on 1) [the Login Page](#LoginPage) 2) [have enabled access to the FAIR enabled repository](#LinkingAccessTo)
 
-#### Automatic Workspace Shutdown
+### Automatic Workspace Shutdown
 
 Workspaces automatically shut down after 90 minutes of idle time and a pop-up window will remind users before the workspace shuts down.
 

@@ -1,5 +1,5 @@
 
-### f) Example Analysis
+## f) Example Analysis
 
 [The Example Analysis page](https://healdata.org/resource-browser) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
 
@@ -16,7 +16,7 @@ If your Browser does not support watching this video, here's a [link to the vide
 
 Currently available static Jupter Notebooks.
 
-#### Why tutorial Notebooks?
+### Why tutorial Notebooks?
 
 These notebooks will allow users to learn how to analyze and visualize data available on the HEAL platform - without having to take the additional steps of finding and exporting the data used by the tutorial first.
 
@@ -33,7 +33,7 @@ These tutorial notebooks are meant to:
 
 The “Example Analysis” tab will be regularly updated with new and exciting tutorial data analysis notebooks, as more datasets are published and brought together in novel ways on the Platform.
 
-#### Currently available Notebooks
+### Currently available Notebooks
 
 Find below a list of notebooks that are currently available and which datasets they’re based on.
 
@@ -165,13 +165,13 @@ state\_hedegaard\_et\_al\_2020.txt
 
 Python
 
-#### Working with the Tutorial Notebooks in interactive mode
+### Working with the Tutorial Notebooks in interactive mode
 
 *   Notebooks require linked access to all FAIR enabled repositories, as described [here](#LinkingAccessTo).
 
 *   Code in the notebooks is editable, and users can import additional datasets and extend their analysis.
 
-#### Demo - How to find data and work on the Tutorial Notebooks
+### Demo - How to find data and work on the Tutorial Notebooks
 
 Below we describe the steps to export data from the Discovery Page tutorial Jupyter notebooks for one example tutorial notebook BACPAC\_Synthetic\_Data\_Analysis.ipynb (“BACPAC synthetic data analysis”)
 
