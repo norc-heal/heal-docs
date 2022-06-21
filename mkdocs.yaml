@@ -1,0 +1,24 @@
+#https://www.mkdocs.org/user-guide/configuration/#
+site_name: HEAL Platform Documentation
+site_url: https://heal-docs-dev.io
+nav:
+  - Home: index.md
+  - Types of Hosted Data: hosted_data_types.md
+  - Data Management and Repositories: data_mgmt_and_repos.md
+  - HEAL Platform Quick Start:
+    - Overview: platform_overview.md
+    - Login Page: platform_login.md
+    - Access check/request: platform_request_access.md
+  - Data File Downloads: downloading_files.md
+  - FAQs: faqs.md
+  - Contact: contact.md
+# theme:
+#   name: material
+use_directory_urls: true
+markdown_extensions:
+    - toc:
+        permalink: "##"
+plugins:
+  - search
+  #- mermaid2
+  #- offline
