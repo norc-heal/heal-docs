@@ -17,7 +17,7 @@ nav:
 use_directory_urls: true
 markdown_extensions:
     - toc:
-        permalink: "##"
+        permalink: "###"
 plugins:
   - search
   #- mermaid2
