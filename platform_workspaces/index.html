@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://heal-docs-dev.io/platform_workspaces/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Workspaces - HEAL Platform Documentation</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">HEAL Platform Documentation</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../hosted_data_types/" class="nav-link">Types of Hosted Data</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../data_mgmt_and_repos/" class="nav-link">Data Management and Repositories</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">HEAL Platform Quick Start <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../platform_overview/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../platform_login/" class="dropdown-item">Login Page</a>
+</li>
+                                    
+<li>
+    <a href="../platform_request_access/" class="dropdown-item">Access check/request</a>
+</li>
+                                    
+<li>
+    <a href="../platform_discovery_page/" class="dropdown-item">Discovery Page</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Workspaces</a>
+</li>
+                                    
+<li>
+    <a href="../platform_example_analyses/" class="dropdown-item">Example Analysis Page</a>
+</li>
+                                    
+<li>
+    <a href="../platform_profile_page/" class="dropdown-item">Profile Page</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../platform_tutorial_videos/" class="nav-link">Tutorial Videos</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../downloading_files/" class="nav-link">Data File Downloads</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../faqs/" class="nav-link">FAQs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../contact/" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../platform_discovery_page/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../platform_example_analyses/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#e-workspaces" class="nav-link">e) Workspaces</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="e-workspaces">e) Workspaces<a class="headerlink" href="#e-workspaces" title="Permanent link">###</a></h2>
+<p>HEAL Platform workspaces are secure data analysis environments in the cloud that can access data from one or more data resources. By default, Workspaces include Jupyter notebooks, Python and RStudio, but can be configured to host virtually any application, including analysis workflows, data processing pipelines, or data visualization apps.</p>
+<p>New to Jupyter? Learn more about the popular tool for data scientists on <a href="https://jupyter.org/">Jupyter.org</a> (disclaimer: CTDS is not responsible for the content).</p>
+<h3 id="guideline-to-get-started">Guideline to get started<a class="headerlink" href="#guideline-to-get-started" title="Permanent link">###</a></h3>
+<ol>
+<li>
+<p>Users need to log in via <a href="https://healdata.org/login">healdata.org/login</a> to access workspaces.</p>
+</li>
+<li>
+<p>After navigating to <a href="https://healdata.org/workspace">healdata.org/workspace</a>, users will discover a list of pre-configured virtual machine (VM) images, as shown below.  </p>
+<p><img alt="Workspace_flavors" src="../img/workspace_flavors.png" /></p>
+<p>Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom; click <a href="#LinkingAccessTo">here to see how</a>).</p>
+</li>
+<li>
+<p>(Generic) Jupyter Notebook with R kernel: Choose this VM if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis.</p>
+</li>
+<li>(Generic, User-licensed) Stata Notebook: Choose this VM if you are familiar with STATA-based data analysis. This notebook requires a STATA license.</li>
+<li>
+<p>Tutorial Notebooks: Explore our Jupyter Notebook tutorials written in Python or RStudio, which pull data from various sources of the HEAL Data Ecosystem to leverage statistical programs and data analysis tools.  </p>
+<p>All interactive tutorial notebooks can be also found as <a href="https://healdata.org/resource-browser">static version on the Notebook Browser tab</a>; read more in the section <a href="#StaticNotebooks">"Example Analysis"</a>.  </p>
+<p>Feel free to edit and experiment with this collection of notebooks. They are your personal copies!  </p>
+<ul>
+<li><em>Notebooks in Python</em>: (1) BACPAC Synthetic Data Analysis, (2) JCOIN Tracking Opioid Stigma, (3) Opioid Overdose Trajectories, (4) Opioid Prevalence And Overdoses</li>
+<li><em>Notebooks in RStudio</em>: (1) Opioid Environment Toolkit and OEPS</li>
+</ul>
+</li>
+<li>
+<p>Click “Launch” on any of the above workspace flavors to spin up a copy of that VM. Note: Launching the VM may take several minutes.  </p>
+<p><img alt="Workspace_launch" src="../img/workspace_launch.png" /></p>
+<p>The status of launching the workspace is displayed after clicking on “Launch”.</p>
+</li>
+<li>
+<p>After launching, the home folders are displayed, one of which is the user's persistent drive ("pd").  </p>
+<p><img alt="Workspace_data_folder" src="../img/workspace_data_folder.png" /></p>
+<p>The /pd directory is a user’s persistent drive.</p>
+</li>
+<li>
+<p>Select the /pd folder. Only files saved in the /pd directory will remain available after termination of a workspace session.  </p>
+<p><img alt="Workspace_pd_folder" src="../img/workspace_pd_folder.png" /></p>
+<p>New files or licenses should be saved in the the /pd directory if users need to access them after restarting the workspaces.</p>
+<blockquote>
+<p>- Attention: Any personal files in the folder “data” will be lost. Personal files in the directory /pd will persist.  </p>
+<p>- Do not save files in the "data" and “data/healdata.org” folders.  </p>
+<p>- The folder “healdata.org” in the “data” folder will host the data files you have exported from the Discovery Page.<br />
+</p>
+</blockquote>
+</li>
+<li>
+<p>Start a new notebook by clicking “New” in the top right corner and choose between Python 3 or R Studio as the base programmatic language.  </p>
+<p><img alt="Workspace_new" src="../img/workspace_new.png" /></p>
+<p>Start a new notebook under “New”.</p>
+</li>
+<li>
+<p>Experiment away! Code blocks are entered in cells, which can be executed individually or all at once. Code documentation and comments can also be entered in cells, and the cell type can be set to support Markdown.  </p>
+<p>Results, including plots, tables, and graphics, can be generated in the workspace and downloaded as files.  </p>
+<p>Users can import data files directly into the Notebook code after selecting files from the <a href="#SelectBringFilesDiscoveryToWorkspace">"Discovery Page"</a>. An example is shown below.  </p>
+<p><img alt="workspace_import_manifest" src="../img/workspace_import_manifest.png" />  </p>
+</li>
+<li>
+<p>Do not forget to terminate your workspace once your work is finished to be mindful of the cost-intensive computational effort. Note, that Workspaces automatically shut down after 90 minutes of <a href="#AutomaticWorkspaceShutdown">idle time.</a>  </p>
+<p><img alt="Workspace_terminate" src="../img/workspace_terminate_2.png" /></p>
+<p>Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs.</p>
+</li>
+</ol>
+<p>Further reading: read more about how to download data files into the Workspaces <a href="#DownloadFilesSDKWorkspaces">here</a>.</p>
+<h3 id="upload-save-and-download-filesnotebooks">Upload, save, and download Files/Notebooks<a class="headerlink" href="#upload-save-and-download-filesnotebooks" title="Permanent link">###</a></h3>
+<p>Users can upload data files or Notebooks from the local machine to the home directory by clicking on “Upload” and access them in the Notebook (see below).</p>
+<p><img alt="Workspace_upload" src="../img/workspace_upload.png" /></p>
+<p>Upload data files or Notebooks to the workspace by clicking on “Upload” in the top right corner. On the upload screen, find your text file (in this example it is "this_is_a_demo.txt") to upload from your local computer.</p>
+<p>Then run in the cells, for example:<br />
+<code>import os   import pandas as pd   os.chdir('/data')   demo_df = pd.read_csv('/this_is_a_demo.txt', sep='\t')   demo_df.head()</code>  </p>
+<p>Users can save the notebook by clicking "File" - "Save as", as shown below.</p>
+<p><img alt="workspace_notebook_save" src="../img/workspace_notebook_save.png" /></p>
+<p>Save the notebook under “File” - "Save as".</p>
+<p>Users can download notebooks by clicking "File" - "Download as", as shown below.</p>
+<p><img alt="workspace_notebook_download" src="../img/workspace_notebook_download.png" /></p>
+<p>Download the notebook as ".ipynb".</p>
+<h3 id="environments-languages-and-tools">Environments, Languages, and Tools<a class="headerlink" href="#environments-languages-and-tools" title="Permanent link">###</a></h3>
+<p>The following environments are available in the workspaces:</p>
+<ul>
+<li>Jupyter<br />
+<img alt="workspace_jupyter_logo" src="../img/workspace_jupyter_logo.png" /></li>
+<li>RStudio<br />
+<img alt="workspace_RStudio_logo" src="../img/workspace_RStudio_logo.png" />  </li>
+</ul>
+<p>The following programmatic languages are available in Jupyter Notebooks:</p>
+<ul>
+<li>RStudio (<a href="#PythonRInJupyter">read more</a>)</li>
+<li>Python 3 (<a href="#PythonRInJupyter">read more</a>)</li>
+<li>STATA (<a href="#STATAinNotebooks">read more</a>)</li>
+</ul>
+<p>The following tools are available in Jupyter Notebooks:</p>
+<ul>
+<li>GitHub (<a href="https://docs.github.com/en">read GitHub documentation</a>)</li>
+</ul>
+<h3 id="python-3-and-rstudio-in-jupyter">Python 3 and RStudio in Jupyter<a class="headerlink" href="#python-3-and-rstudio-in-jupyter" title="Permanent link">###</a></h3>
+<p>Both Python 3 and RStudio are available in Jupyter Notebooks.<br />
+Users can expect to be able to use typical Python or RStudio packages, such as PyPI or CRAN. For Python and RStudio, users can start a new notebook under "New", as shown below.</p>
+<p><img alt="Workspace_new" src="../img/workspace_new.png" /></p>
+<p>Find Python 3 or RStudio when starting a new notebook under “New”.</p>
+<h3 id="stata-in-jupyter">STATA in Jupyter<a class="headerlink" href="#stata-in-jupyter" title="Permanent link">###</a></h3>
+<p>STATA is available as language in Jupyter notebooks (either in Python or R kernels), but requires a license and a specific workspace.</p>
+<p>Users need to first choose the following workspace "(Generic, User-licensed) Stata Notebook" in order to be able to use STATA:</p>
+<p><img alt="stata_user_licensed" src="../img/stata_user_licensed.png" /></p>
+<p>Select this workspace to use STATA in the notebook.</p>
+<p>Users need to upload a license <code>stata.lic</code> to the /pd folder by selecting "Upload" (top right).</p>
+<p><img alt="stata_lic" src="../img/stata_lic.png" /></p>
+<p>If the upload was successful, the license appears in the directory /pd.</p>
+<p><em>Note</em>, that uploading the license can also be achieved programmatically by opening a new terminal window under "New" - "Terminal", finding the directory /pd by typing: <code>cd pd</code> . Then, create a file using vim: <code>vim stata.lic</code> . This will open the file in the terminal. Users can copy the license, then hit <code>:</code> + <code>wq</code>.</p>
+<p>Then, users need to start a new notebook under "New" (choose either R or Python). Run the following code in the first cell:<br />
+<code>import stata_setup   stata_setup.config("/usr/local/stata17", "mp")</code></p>
+<p>This will return the following:</p>
+<p><img alt="stata_setup_imports" src="../img/stata_setup_imports.png" /></p>
+<p>Setup the license in the first cell.</p>
+<p>Users can then begin using the notebook by typing in known STATA commands, for example <code>%% stata . describe</code> .</p>
+<h3 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">###</a></h3>
+<ul>
+<li>If the kernel died, make sure to be logged in on 1) <a href="#LoginPage">the Login Page</a> 2) <a href="#LinkingAccessTo">have enabled access to the FAIR enabled repository</a></li>
+</ul>
+<h3 id="automatic-workspace-shutdown">Automatic Workspace Shutdown<a class="headerlink" href="#automatic-workspace-shutdown" title="Permanent link">###</a></h3>
+<p>Workspaces automatically shut down after 90 minutes of idle time and a pop-up window will remind users before the workspace shuts down.</p>
+<p><img alt="workspace_shutdown_sign_2" src="../img/workspace_shutdown_sign_2.png" /></p>
+<p>A pop-up window will remind users to navigate back to the workspaces page in order to save the data.</p>
+<p>After the workspace has been shut down, users will be notified with the following pop-up window.</p>
+<p><img alt="workspace_shutdown_sign_1" src="../img/workspace_shutdown_sign_1.png" /></p>
+<p>Workspaces automatically shut down after 90 minutes of idle time.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
