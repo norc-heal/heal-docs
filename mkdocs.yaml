@@ -9,6 +9,11 @@ nav:
     - Overview: platform_overview.md
     - Login Page: platform_login.md
     - Access check/request: platform_request_access.md
+    - Discovery Page: platform_discovery_page.md
+    - Workspaces: platform_workspaces.md
+    - Example Analysis Page: platform_example_analyses.md
+    - Profile Page: platform_profile_page.md
+  - Tutorial Videos: platform_tutorial_videos.md
   - Data File Downloads: downloading_files.md
   - FAQs: faqs.md
   - Contact: contact.md
