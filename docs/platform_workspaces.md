@@ -10,12 +10,9 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
   
 3.  After navigating to [healdata.org/workspace](https://healdata.org/workspace), users will discover a list of pre-configured virtual machine (VM) images, as shown below.  
       
-    ![Workspace_flavors](img/workspace_flavors.png)
-    
-    Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom; click [here to see how](#LinkingAccessTo)).
-    
-      
-      
+![Workspace_flavors](img/workspace_flavors.png)
+
+Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom; click [here to see how](#LinkingAccessTo)).
     
 
 *   (Generic) Jupyter Notebook with R kernel: Choose this VM if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis.
@@ -65,9 +62,9 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
   
 11.  Start a new notebook by clicking “New” in the top right corner and choose between Python 3 or R Studio as the base programmatic language.  
       
-    ![Workspace_new](img/workspace_new.png)
-    
-    Start a new notebook under “New”.
+![Workspace_new](img/workspace_new.png)
+
+Start a new notebook under “New”.
     
       
       
@@ -78,14 +75,14 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
       
     Users can import data files directly into the Notebook code after selecting files from the ["Discovery Page"](#SelectBringFilesDiscoveryToWorkspace). An example is shown below.  
       
-    ![workspace_import_manifest](img/workspace_import_manifest.png)  
-      
+![workspace_import_manifest](img/workspace_import_manifest.png)  
+    
     
 13.  Do not forget to terminate your workspace once your work is finished to be mindful of the cost-intensive computational effort. Note, that Workspaces automatically shut down after 90 minutes of [idle time.](#AutomaticWorkspaceShutdown)  
       
-    ![Workspace_terminate](img/workspace_terminate_2.png)
-    
-    Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs.
+![Workspace_terminate](img/workspace_terminate_2.png)
+
+Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs.
     
       
       

@@ -93,7 +93,8 @@ Find below a guide to download data files using the Gen3-client:
       
     b. In your terminal, configure your profile using the following command:  
       
-    `gen3-client configure --profile=<profile_name> --cred=<credentials.json> --apiendpoint=<api_endpoint_url>      #Mac/Linux:   gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/      #Windows:   gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/      #Output:   10:08:20 Profile 'demo' has been configured successfully.   `  
+    `gen3-client configure --profile=<profile_name> --cred=<credentials.json> --apiendpoint=<api_endpoint_url>      #Mac/Linux:   gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/      #Windows:   gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/      #Output:   10:08:20 Profile 'demo' has been configured successfully.   ` 
+     
     If successfully executed, a configuration file will be stored under the directory the user specified under “cred”. For troubleshooting, refer to the instructions found [here](https://gen3.org/resources/user/gen3-client/#2-configure-a-profile-with-credentials).  
       
     c. Download files by using the following command, which references the manifest file name and its location:  

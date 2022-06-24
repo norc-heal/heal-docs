@@ -19,6 +19,12 @@ The HEAL Platform is powered by the open-source [software “Gen3”](https://ct
 Powered by  
 [![Gen3_logo](img/gen3_grey.png)](https://ctds.uchicago.edu/gen3)
 
-Watch the introduction video to the HEAL Platform below  
+Watch the introduction video to the HEAL Platform below
+
+<!-- TODO: use mkdocs-videos -->
+<!-- ![type:video](videos/HEAL_UI_Demo_July_2021.mp4) -->
+<video controls width="600">
+<source src="videos/HEAL_UI_Demo_July_2021.mp4" type="video/mp4">
+</video>
   
   If your Browser does not support watching this video, here's a [link to the video](videos/HEAL_UI_Demo_July_2021.mp4) instead.

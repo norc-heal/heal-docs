@@ -11,6 +11,8 @@ The Discovery Page of the HEAL Platform. Browse through datasets and study-level
 
 ### Search Features
 
+<!-- MBK: deleted the "Click here: these sections shoudl probably
+be embedded into the subsequent sections or have their own sections -->
 ![DiscoveryFeatures](img/discovery_features.png)
 
 Different features such as free text search bar and tags on the Discovery Page help navigating and refining the search.
@@ -19,10 +21,10 @@ Different features such as free text search bar and tags on the Discovery Page h
 2.  Study Characteristics. Click "Study Characteristics" to expand the search options. Find a range of tags in eight categories (Study Setting, Study Design, Pain, Data Type, Subject Characteristics, Intervention/Treatment, Substance Use, Data Resources) to narrow down any search. Selecting multiple tags work in a "OR" logic. Click on "Reset Selection" to start a new search.
 3.  The total number of studies. Shows the amount of studies the HEAL Platform is currently displaying.
 4.  Export Options. Login first to leverage the export options. Select one or multiple studies and 1) download the attached data files, 2) download a file manifest (for data files whose sizes exceed 250 MB), or 3) export the metadata and data files to a secure cloud environment "Workspaces" to start your custom data analysis in Python, R, or STATA.
-5.  Studies. This feature presents all current studies on the HEAL Platform. Click on any study to show useful information about the study (metadata). [Read further here](#FindStudyMetadata).
-6.  Data Availability. Filter on available, pending, and not-yet-available datasets. [Read further here](#DataAvailabilityOptions).
+5.  Studies. This feature presents all current studies on the HEAL Platform. Click on any study to show useful information about the study (metadata). 
+6.  Data Availability. Filter on available, pending, and not-yet-available datasets.
 7.  Documentation. This brings you to this page you are currently on.
-8.  Login Page. Login on the HEAL Platform to leverage all features. [Read further here](#LoginPage).
+8.  Login Page. Login on the HEAL Platform to leverage all features. [Read further here](platform_login.md).
 
 ### Find available Study-level Metadata
 
@@ -50,9 +52,9 @@ Three options for Data Availability.
 
 *   Available: This option will display only studies with datasets users have access to and entails all open-access studies. Studies can be selected and exported to a workspace or downloaded by clicking on the associated checkbox on the left-hand side of the study entry and selecting one of the options in the top right.  
       
-    ![discovery_options](img/discovery_options.png)
-    
-    Once available, each study can be selected and exported to workspace or downloaded.
+![discovery_options](img/discovery_options.png)
+
+Once available, each study can be selected and exported to workspace or downloaded.
     
       
       
@@ -96,21 +98,27 @@ The above gif shows the workflow used to select data files from the Discovery Pa
 5.  Navigate to the `/pd/data/healdata.org/` folder and find the placeholder files there. Click on those placeholder files to find instructions how to download the files or see below.  
       
     
-6.  From the directory `/pd`, users can now start a new notebook. Click “New” (upper right corner) or open a previously saved notebook on the landing drive to load the files into one of the cells, for example by running  
-    `! gen3 drs-pull object "guid""   import pandas as pd   os.chdir('/pd')   demo_df = pd.read_csv('pd/demo_file.txt', sep='\t')   demo_df.head()`  
-      
-    More information for instructions on importing data can be found in the sections ["Download Files to Workspaces"](#DownloadFilesSDKWorkspaces) and ["Workspaces"](#Workspaces).  
-      
+6.  From the directory `/pd`, users can now start a new notebook. Click “New” (upper right corner) or open a previously saved notebook on the landing drive to load the files into one of the cells, for example by running:
+
+
+    > ! gen3 drs-pull object "guid"
+
+    > import pandas as pd   
+
+    > os.chdir('/pd')
+
+    > demo_df = pd.read_csv('pd/demo_file.txt', sep='\t')
+
+    > demo_df.head()
+
+
+More information for instructions on importing data can be found in the sections ["Download Files to Workspaces"](#DownloadFilesSDKWorkspaces) and ["Workspaces"](#Workspaces).  
+    
     
 7.  Make sure to terminate the workspace when the work is finished to reduce computational costs.
 
-> \- "pd" means persistent directory. Saved files outside this directory will be lost.  
->   
-> \- The manifest.json lists metadata of all exported files and can be used to download in [batches](#DownloadFilesSDKWorkspaces)  
->   
-> \- Note, that all exported data files will be saved in the `/pd/data/healdata.org/` folder.  
->   
-> \- Please also note, that the workspace mounts up to a maximum of 5 different manifests while the workspace is running but shows only the latest exported manifest in a newly launched workspace.  
->   
-> \- Terminating the workspace will result in the loss of all but the latests manifest.  
->   
+- "pd" means persistent directory. Saved files outside this directory will be lost.  
+- The manifest.json lists metadata of all exported files and can be used to download in [batches](#DownloadFilesSDKWorkspaces)  
+- Note, that all exported data files will be saved in the `/pd/data/healdata.org/` folder.  
+- Please also note, that the workspace mounts up to a maximum of 5 different manifests while the workspace is running but shows only the latest exported manifest in a newly launched workspace.  
+- Terminating the workspace will result in the loss of all but the latests manifest.  

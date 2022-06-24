@@ -5,16 +5,22 @@
 
 > This tab acts as a ['visual table of contents’](#CurrentlyAvailableNotebooks) of available HEAL datasets.
 
-“HEAL Example Analysis”  
+### HEAL Example Analysis
+ 
 This video introduces users to the Example Analysis page, where users can browse Jupyter notebook demos to explore previous data analyses on the HEAL platform.  
-  
+
+<!-- TODO: use mkdocs-videos -->
+<!-- ![type:video](videos/HEAL_UI_Demo_July_2021.mp4) -->
+<video controls width="600">
+<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/mp4">
+</video>
    
 If your Browser does not support watching this video, here's a [link to the video](videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4) instead.  
   
 
-![grid_notebooks_color](img/grid_notebooks_color.png)
+Currently available static Jupter Notebooks:
 
-Currently available static Jupter Notebooks.
+![grid_notebooks_color](img/grid_notebooks_color.png)
 
 ### Why tutorial Notebooks?
 
