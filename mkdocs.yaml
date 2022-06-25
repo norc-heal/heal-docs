@@ -9,8 +9,8 @@ nav:
       Data Management and Repositories: data_mgmt_and_repos.md
   - HEAL Platform Features:
     - Login Page: platform_login.md
-    - Access check/request: platform_request_access.md
     - Discovery Page: platform_discovery_page.md
+    - Access check/request: platform_request_access.md
     - Workspaces: platform_workspaces.md
     - Example Analysis Page: platform_example_analyses.md
     - Profile Page: platform_profile_page.md
