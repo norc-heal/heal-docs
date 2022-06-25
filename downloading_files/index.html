@@ -36,19 +36,22 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../hosted_data_types/" class="nav-link">Types of Hosted Data</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../data_mgmt_and_repos/" class="nav-link">Data Management and Repositories</a>
-                            </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">HEAL Platform Quick Start <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data and Repositories <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../platform_overview/" class="dropdown-item">Overview</a>
+    <a href="../hosted_data_types/" class="dropdown-item">Types of Hosted Data</a>
 </li>
+                                    
+<li>
+    <a href="../data_mgmt_and_repos/" class="dropdown-item">Data Management and Repositories</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">HEAL Platform Features <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
                                     
 <li>
     <a href="../platform_login/" class="dropdown-item">Login Page</a>
@@ -75,11 +78,11 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
-                                <a href="../platform_tutorial_videos/" class="nav-link">Tutorial Videos</a>
-                            </li>
                             <li class="navitem active">
                                 <a href="./" class="nav-link">Data File Downloads</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../platform_tutorial_videos/" class="nav-link">Tutorial Videos</a>
                             </li>
                             <li class="navitem">
                                 <a href="../faqs/" class="nav-link">FAQs</a>
@@ -96,12 +99,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../platform_tutorial_videos/" class="nav-link">
+                                <a rel="prev" href="../platform_profile_page/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../faqs/" class="nav-link">
+                                <a rel="next" href="../platform_tutorial_videos/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -123,8 +126,20 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#5-downloading-data-files" class="nav-link">5. Downloading Data Files</a>
+            <li class="nav-item" data-level="1"><a href="#5-downloading-data-files" class="nav-link">5. Downloading Data Files</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#a-download-data-files-from-the-discovery-page" class="nav-link">a) Download Data Files from the Discovery Page</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#b-download-data-files-using-the-gen3-client" class="nav-link">b) Download Data Files using the Gen3-client</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#c-download-data-files-in-workspaces-using-the-python-sdk" class="nav-link">c) Download Data Files in Workspaces using the Python SDK</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -132,15 +147,15 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="5-downloading-data-files">5. Downloading Data Files<a class="headerlink" href="#5-downloading-data-files" title="Permanent link">###</a></h2>
+<h1 id="5-downloading-data-files">5. Downloading Data Files<a class="headerlink" href="#5-downloading-data-files" title="Permanent link">&para;</a></h1>
 <p>Users can download data files associated with a study by downloading the files directly from the Discovery page, or leveraging the CTDS-owned python software development kit (SDK) and the tool “Gen3-client” if the file size exceeds 250 MB.</p>
 <p>Note that current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1.</p>
 <p>Note, that accessing data files requires linked access to all FAIR enabled repositories, as described <a href="#LinkingAccessTo">here</a>. A pop-up window will remind users:</p>
 <p><img alt="workspace_login_other_commons_discovery" src="../img/workspace_login_other_commons_discovery.png" /></p>
 <p>Users are reminded to link the account to all other FAIR enabled repositories, as described <a href="#LinkingAccessTo">here</a>.</p>
-<h3 id="a-download-data-files-from-the-discovery-page">a) Download Data Files from the Discovery Page<a class="headerlink" href="#a-download-data-files-from-the-discovery-page" title="Permanent link">###</a></h3>
-<p>Users can download data files up to sizes of 250 MB directly from the Discovery Page.<br />
-Below you find the simple steps to do so.</p>
+<h2 id="a-download-data-files-from-the-discovery-page">a) Download Data Files from the Discovery Page<a class="headerlink" href="#a-download-data-files-from-the-discovery-page" title="Permanent link">&para;</a></h2>
+<p>Users can download data files up to sizes of 250 MB directly from the Discovery Page.  </p>
+<p>Below you find the simple steps to do so.</p>
 <ol>
 <li>
 <p>Navigate to the <a href="#Discovery">Discovery Page</a>. Link your accounts to FAIR repositories as described <a href="#LinkingAccessTo">here</a>.  </p>
@@ -171,7 +186,7 @@ Below you find the simple steps to do so.</p>
 <p>Users are advised to use other tools to download the files if the total file size exceeds 250 MB. <a href="#DownloadFilesClientSDK">Please see the next section for a step-by-step guide using these tools</a>.</p>
 </li>
 </ol>
-<h3 id="b-download-data-files-using-the-gen3-client">b) Download Data Files using the Gen3-client<a class="headerlink" href="#b-download-data-files-using-the-gen3-client" title="Permanent link">###</a></h3>
+<h2 id="b-download-data-files-using-the-gen3-client">b) Download Data Files using the Gen3-client<a class="headerlink" href="#b-download-data-files-using-the-gen3-client" title="Permanent link">&para;</a></h2>
 <p>In order to download data files above 250 MB, users will need to utilize the Gen3-client command line tool developed by the University of Chicago’s Center for Translational Data Science.</p>
 <p>The current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1.</p>
 <p>Find below a guide to download data files using the Gen3-client:</p>
@@ -183,28 +198,53 @@ Below you find the simple steps to do so.</p>
 <p>Find and select one or multiple studies of interest on the <a href="https://healdata.org/discovery">Discovery Page</a>. For multiple studies, select "Data Availability" in the top right corner, click “Available”, and choose multiple studies.</p>
 </li>
 <li>
-<p>Click on the button “Download Manifest".<br />
-<img alt="discovery_select_study_download_manifest" src="../img/discovery_select_study_download_manifest.png" /></p>
-<p>Select a study of interest, then click on the button “Download Manifest".</p>
+<p>Click on the button “Download Manifest".</p>
 </li>
-<li>
-<p>Create and download an API key from your <a href="https://healdata.org/identity">Profile Page</a>. Note where you save the API key on your local machine.<br />
-<img alt="profile_APIkey" src="../img/profile_APIkey.png" /></p>
+</ol>
+<p><img alt="discovery_select_study_download_manifest" src="../img/discovery_select_study_download_manifest.png" /></p>
+<p>Select a study of interest, then click on the button “Download Manifest".</p>
+<ol>
+<li>Create and download an API key from your <a href="https://healdata.org/identity">Profile Page</a>. Note where you save the API key on your local machine.  </li>
+</ol>
+<p><img alt="profile_APIkey" src="../img/profile_APIkey.png" /></p>
 <p>Create an API key on the profile page.</p>
 <p><img alt="profile_APIkey_created" src="../img/profile_APIkey_created.png" /></p>
 <p>Download the API key as json file and note the directory where the API key was saved for step 6.</p>
-</li>
+<ol>
 <li>
 <p>Download and configure the Gen3-client<br />
     a. Follow the download instructions of the Gen3-client <a href="https://gen3.org/resources/user/gen3-client/#1-installation-instructions">here</a>. The client can be downloaded <a href="https://github.com/uc-cdis/cdis-data-client/releases/latest">here</a>.  </p>
 <p>b. In your terminal, configure your profile using the following command:  </p>
-<p><code>gen3-client configure --profile=&lt;profile_name&gt; --cred=&lt;credentials.json&gt; --apiendpoint=&lt;api_endpoint_url&gt;      #Mac/Linux:   gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/      #Windows:   gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/      #Output:   10:08:20 Profile 'demo' has been configured successfully.</code><br />
-If successfully executed, a configuration file will be stored under the directory the user specified under “cred”. For troubleshooting, refer to the instructions found <a href="https://gen3.org/resources/user/gen3-client/#2-configure-a-profile-with-credentials">here</a>.  </p>
+<blockquote>
+<p><code>gen3-client configure --profile=&lt;profile_name&gt; --cred=&lt;credentials.json&gt; --apiendpoint=&lt;api_endpoint_url&gt;</code>     </p>
+</blockquote>
+<p>Mac/Linux:   </p>
+<blockquote>
+<p><code>gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/</code>    </p>
+</blockquote>
+<p>Windows:   </p>
+<blockquote>
+<p><code>gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/</code>     </p>
+</blockquote>
+<p>If the command was succesful, you should get the following output:</p>
+<p><code>10:08:20 Profile 'demo' has been configured successfully.</code></p>
+<p>If successfully executed, a configuration file will be stored under the directory the user specified under “cred”. For troubleshooting, refer to the instructions found <a href="https://gen3.org/resources/user/gen3-client/#2-configure-a-profile-with-credentials">here</a>.  </p>
 <p>c. Download files by using the following command, which references the manifest file name and its location:  </p>
-<p><code>gen3-client download-multiple --profile=&lt;profile_name&gt; --manifest=&lt;manifest_file&gt; --download-path=&lt;path_for_files&gt;      gen3-client download-multiple --profile=demo --manifest=manifest.json --download-path=downloads      #Output:   2021/06/03 16:48:46 Reading manifest...   200 B / 200 B [===================] 100.00% 0s   WARNING: flag "rename" was set to false in "original" mode, duplicated files under "downloads/" will be overwritten   Proceed? [y/n]: y   2021/06/03 16:48:47 Total number of GUIDs: 1   2021/06/03 16:48:47 Preparing file info for each file, please wait...   1 / 1 [============================================] 100.00% 0s   2021/06/03 16:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz 6.41 GiB / 6.41 GiB [=======================================================] 100.00% 0s</code></p>
+<blockquote>
+<p><code>gen3-client download-multiple --profile=&lt;profile_name&gt; --manifest=&lt;manifest_file&gt; --download-path=&lt;path_for_files&gt;      gen3-client download-multiple --profile=demo --manifest=manifest.json --download-path=downloads</code>      </p>
+<p><code>2021/06/03 16:48:46 Reading manifest...   200 B / 200 B [===================] 100.00% 0s   WARNING: flag "rename" was set to false in "original" mode, duplicated files under "downloads/" will be overwritten   Proceed? [y/n]:</code></p>
+</blockquote>
+<p>Enter:</p>
+<blockquote>
+<p><code>y</code></p>
+</blockquote>
+<p>Output:</p>
+<blockquote>
+<p><code>2021/06/03 16:48:47 Total number of GUIDs: 1   2021/06/03 16:48:47 Preparing file info for each file, please wait...   1 / 1 [============================================] 100.00% 0s   2021/06/03 16:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz 6.41 GiB / 6.41 GiB [=======================================================] 100.00% 0s</code></p>
+</blockquote>
 </li>
 </ol>
-<h3 id="c-download-data-files-in-workspaces-using-the-python-sdk">c) Download Data Files in Workspaces using the Python SDK<a class="headerlink" href="#c-download-data-files-in-workspaces-using-the-python-sdk" title="Permanent link">###</a></h3>
+<h2 id="c-download-data-files-in-workspaces-using-the-python-sdk">c) Download Data Files in Workspaces using the Python SDK<a class="headerlink" href="#c-download-data-files-in-workspaces-using-the-python-sdk" title="Permanent link">&para;</a></h2>
 <p>Users can download data files to the workspaces by leveraging the CTDS-owned python software development kit (SDK). Follow instructions below.</p>
 <ol>
 <li>
@@ -235,16 +275,18 @@ If successfully executed, a configuration file will be stored under the director
 </li>
 <li>
 <ul>
-<li>
-<p>Type in the following command to download the file to the terminal:<br />
-<code>gen3 drs-pull object "guid"</code>  </p>
+<li>Type in the following command to download the file to the terminal:<br />
+    &gt; <code>gen3 drs-pull object "guid"</code>  </li>
+</ul>
 <p><img alt="workspace_terminal_download" src="../img/workspace_terminal_download.png" />  </p>
-</li>
-<li>
-<p>If you are working in a notebook, type in the following command into a code cell to download the file:<br />
-<code>!gen3 drs-pull object "guid"</code>  </p>
+<ul>
+<li>If you are working in a notebook, type in the following command into a code cell to download the file:  </li>
+</ul>
+<blockquote>
+<p><code>!gen3 drs-pull object "guid"</code>  </p>
+</blockquote>
 <p><img alt="workspace_download_one_file_sdk" src="../img/workspace_download_one_file_sdk.png" />  </p>
-</li>
+<ul>
 <li>
 <p>If you use the R kernel, change the command into <code>system("gen3 drs-pull object 'guid'")</code>  </p>
 </li>

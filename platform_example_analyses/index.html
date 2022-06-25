@@ -36,19 +36,22 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../hosted_data_types/" class="nav-link">Types of Hosted Data</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../data_mgmt_and_repos/" class="nav-link">Data Management and Repositories</a>
-                            </li>
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">HEAL Platform Quick Start <b class="caret"></b></a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data and Repositories <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../platform_overview/" class="dropdown-item">Overview</a>
+    <a href="../hosted_data_types/" class="dropdown-item">Types of Hosted Data</a>
 </li>
+                                    
+<li>
+    <a href="../data_mgmt_and_repos/" class="dropdown-item">Data Management and Repositories</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">HEAL Platform Features <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
                                     
 <li>
     <a href="../platform_login/" class="dropdown-item">Login Page</a>
@@ -76,10 +79,10 @@
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="../platform_tutorial_videos/" class="nav-link">Tutorial Videos</a>
+                                <a href="../downloading_files/" class="nav-link">Data File Downloads</a>
                             </li>
                             <li class="navitem">
-                                <a href="../downloading_files/" class="nav-link">Data File Downloads</a>
+                                <a href="../platform_tutorial_videos/" class="nav-link">Tutorial Videos</a>
                             </li>
                             <li class="navitem">
                                 <a href="../faqs/" class="nav-link">FAQs</a>
@@ -123,8 +126,28 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#f-example-analysis" class="nav-link">f) Example Analysis</a>
+            <li class="nav-item" data-level="1"><a href="#f-example-analysis" class="nav-link">f) Example Analysis</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#heal-example-analysis" class="nav-link">HEAL Example Analysis</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#why-tutorial-notebooks" class="nav-link">Why tutorial Notebooks?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#currently-available-notebooks" class="nav-link">Currently available Notebooks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#working-with-the-tutorial-notebooks-in-interactive-mode" class="nav-link">Working with the Tutorial Notebooks in interactive mode</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#demo-how-to-find-data-and-work-on-the-tutorial-notebooks" class="nav-link">Demo - How to find data and work on the Tutorial Notebooks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -132,17 +155,24 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="f-example-analysis">f) Example Analysis<a class="headerlink" href="#f-example-analysis" title="Permanent link">###</a></h2>
+<h1 id="f-example-analysis">f) Example Analysis<a class="headerlink" href="#f-example-analysis" title="Permanent link">&para;</a></h1>
 <p><a href="https://healdata.org/resource-browser">The Example Analysis page</a> contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.</p>
 <blockquote>
 <p>This tab acts as a <a href="#CurrentlyAvailableNotebooks">'visual table of contents’</a> of available HEAL datasets.</p>
 </blockquote>
-<p>“HEAL Example Analysis”<br />
-This video introduces users to the Example Analysis page, where users can browse Jupyter notebook demos to explore previous data analyses on the HEAL platform.  </p>
+<h2 id="heal-example-analysis">HEAL Example Analysis<a class="headerlink" href="#heal-example-analysis" title="Permanent link">&para;</a></h2>
+<p>This video introduces users to the Example Analysis page, where users can browse Jupyter notebook demos to explore previous data analyses on the HEAL platform.  </p>
+<!-- TODO: use mkdocs-videos -->
+<!-- ![type:video](videos/HEAL_UI_Demo_July_2021.mp4) -->
+<video controls width="600">
+<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/mp4">
+<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/webm">
+</video>
+
 <p>If your Browser does not support watching this video, here's a <a href="../videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4">link to the video</a> instead.  </p>
+<p>Currently available static Jupter Notebooks:</p>
 <p><img alt="grid_notebooks_color" src="../img/grid_notebooks_color.png" /></p>
-<p>Currently available static Jupter Notebooks.</p>
-<h3 id="why-tutorial-notebooks">Why tutorial Notebooks?<a class="headerlink" href="#why-tutorial-notebooks" title="Permanent link">###</a></h3>
+<h2 id="why-tutorial-notebooks">Why tutorial Notebooks?<a class="headerlink" href="#why-tutorial-notebooks" title="Permanent link">&para;</a></h2>
 <p>These notebooks will allow users to learn how to analyze and visualize data available on the HEAL platform - without having to take the additional steps of finding and exporting the data used by the tutorial first.</p>
 <blockquote>
 <p>All tutorial notebooks are static, view-only, and can be downloaded as <code>.html</code> files.<br />
@@ -157,101 +187,61 @@ Find below a description of how to <a href="#WorkingTutorialNotebooksInteractive
 <li>Spark imagination about how users can incorporate the platform data access, analysis, and collaboration tools into their own research and data analysis process and pipelines.</li>
 </ul>
 <p>The “Example Analysis” tab will be regularly updated with new and exciting tutorial data analysis notebooks, as more datasets are published and brought together in novel ways on the Platform.</p>
-<h3 id="currently-available-notebooks">Currently available Notebooks<a class="headerlink" href="#currently-available-notebooks" title="Permanent link">###</a></h3>
+<h2 id="currently-available-notebooks">Currently available Notebooks<a class="headerlink" href="#currently-available-notebooks" title="Permanent link">&para;</a></h2>
 <p>Find below a list of notebooks that are currently available and which datasets they’re based on.</p>
 <blockquote>
 <p>Click <a href="#Tutorials">here</a> to watch demo videos about how to use the tutorial Jupyter Notebooks as a launching point for your own custom analysis.</p>
 </blockquote>
 <p>Please link your account to <a href="#LinkingAccessTo">all FAIR repositories</a> before working with the Notebooks in interactive mode.</p>
-<p>Notebook<br />
-Name</p>
-<p>Project Title</p>
-<p>Project<br />
-Number</p>
-<p>Datasets used</p>
-<p>Language</p>
-<p>BACPAC Synthetic Data Analysis</p>
-<p>Back Pain Consortium (BACPAC)<br />
-Research Program Data Integration,<br />
-Algorithm Development and Operations<br />
-Management Center</p>
-<p>1U24AR076730-01</p>
-<p>1) participant_<br />
-SMART.tsv<br />
-2) substance_use_<br />
-SMART.tsv<br />
-3) physical_function_<br />
-SMART.tsv</p>
-<p>Python</p>
-<p>JCOIN Tracking Opioid Stigma</p>
-<p>Methodology and Advanced<br />
-Analytics Resource Center</p>
-<p>1U2CDA050098-01_a</p>
-<p>1) JCOIN_NORC_<br />
-Omnibus_SURVEY1_<br />
-Feb2020.sav<br />
-2) JCOIN_NORC_<br />
-Omnibus_SURVEY2_<br />
-April2020.sav<br />
-3) JCOIN_NORC_<br />
-Omnibus_SURVEY3_<br />
-June2020.sav<br />
-4) JCOIN_NORC_<br />
-Omnibus_SURVEY4_<br />
-Oct2020.sav</p>
-<p>Python</p>
-<p>Opioid Prevalence And Overdoses</p>
-<p>1) Drug Enforcement Administration<br />
-Controlled Substances Tracking (DEA ARCOS)  </p>
-<p>2) Prescription Drug Abuse Policy System  </p>
-<p>2b) 3) CDC Wide-ranging Online Data<br />
-for Epidemiologic Research (CDC WONDER)<br />
-Mortality Multiple Cause-of-Death<br />
-Public Use Record  </p>
-<p>1) deaarcos1  </p>
-<p>2) 57b45d83d6<br />
-c9e7e8693ccdfd  </p>
-<p>3) cdcwonder  </p>
-<p>1a) dea_arcos_drug_list.tsv<br />
-1b) dea_arcos_county_<br />
-population.tsv<br />
-1c) dea_arcos_combined_<br />
-county_annual.tsv<br />
-1d) dea_arcos_state_population.tsv  </p>
-<p>2a) 20170216-RM-Stat-Data.xlsx<br />
-2b) Naloxone_Data_09112020.xlsx<br />
-2c) 20180810_Good_Samaritan_<br />
-Law_Stat_Data.xlsx  </p>
-<p>3a) CDC_WONDER_unintentional_<br />
-overdoses.tsv<br />
-3b) CDC_WONDER_suicide_<br />
-overdoses.tsv<br />
-3c) monthly_unintentional_<br />
-overdoses.tsv  </p>
-<p>Python</p>
-<p>Opioid Environment Toolkit and OEPS R (<a href="#Tutorials">Watch tutorial</a>)</p>
-<p>Methodology and Advanced<br />
-Analytics Resource Center</p>
-<p>1U2CDA050098-01_b</p>
-<p>1) ZIP_COUNTY.xlsx<br />
-2) us-wide-moudsCleaned.csv<br />
-3) zctas2018.shp  </p>
-<p>RStudio</p>
-<p>Opioid Overdose Trajectories (<a href="#Tutorials">Watch tutorial</a>)</p>
-<p>CDC Wide-ranging Online Data<br />
-for Epidemiologic Research<br />
-(CDC WONDER) Mortality Multiple<br />
-Cause-of-Death Public Use Record</p>
-<p>cdcwonder</p>
-<p>1) deaths_gender.xlsx<br />
-2) deaths_age_cat.xlsx<br />
-3) deaths_type_opioid.xlsx<br />
-4) cdc_wonder_year_cause_<br />
-hedegaard_et_al_2020.txt<br />
-5) cdc_wonder_year_cause_<br />
-state_hedegaard_et_al_2020.txt</p>
-<p>Python</p>
-<h3 id="working-with-the-tutorial-notebooks-in-interactive-mode">Working with the Tutorial Notebooks in interactive mode<a class="headerlink" href="#working-with-the-tutorial-notebooks-in-interactive-mode" title="Permanent link">###</a></h3>
+<table>
+<thead>
+<tr>
+<th>Notebook Name</th>
+<th>Project Title</th>
+<th>Project Number</th>
+<th>Datasets used</th>
+<th>Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BACPAC Synthetic Data Analysis</td>
+<td>Back Pain Consortium (BACPAC) Research Program Data Integration, Algorithm Development and Operations Management Center</td>
+<td>1U24AR076730-01</td>
+<td>1) participant_ SMART.tsv 2) substance_use_ SMART.tsv 3) physical_function_ SMART.tsv</td>
+<td>Python</td>
+</tr>
+<tr>
+<td>JCOIN Tracking Opioid Stigma</td>
+<td>Methodology and Advanced Analytics Resource Center</td>
+<td>1U2CDA050098-01_a</td>
+<td>1) JCOIN_NORC_ Omnibus_SURVEY1_ Feb2020.sav 2) JCOIN_NORC_ Omnibus_SURVEY2_ April2020.sav 3) JCOIN_NORC_ Omnibus_SURVEY3_ June2020.sav 4) JCOIN_NORC_ Omnibus_SURVEY4_ Oct2020.sav</td>
+<td>Python</td>
+</tr>
+<tr>
+<td>Opioid Prevalence And Overdoses</td>
+<td>1) Drug Enforcement Administration Controlled Substances Tracking (DEA ARCOS)  2) Prescription Drug Abuse Policy System  2b) 3) CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record</td>
+<td>1) deaarcos1  2) 57b45d83d6 c9e7e8693ccdfd  3) cdcwonder</td>
+<td>1a) dea_arcos_drug_list.tsv 1b) dea_arcos_county_ population.tsv 1c) dea_arcos_combined_ county_annual.tsv 1d) dea_arcos_state_population.tsv  2a) 20170216-RM-Stat-Data.xlsx 2b) Naloxone_Data_09112020.xlsx 2c) 20180810_Good_Samaritan_ Law_Stat_Data.xlsx  3a) CDC_WONDER_unintentional_ overdoses.tsv 3b) CDC_WONDER_suicide_ overdoses.tsv 3c) monthly_unintentional_ overdoses.tsv</td>
+<td>Python</td>
+</tr>
+<tr>
+<td>Opioid Environment Toolkit and OEPS R (Watch tutorial)</td>
+<td>Methodology and Advanced Analytics Resource Center</td>
+<td>1U2CDA050098-01_b</td>
+<td>1) ZIP_COUNTY.xlsx 2) us-wide-moudsCleaned.csv 3) zctas2018.shp</td>
+<td>RStudio</td>
+</tr>
+<tr>
+<td>Opioid Overdose Trajectories (Watch tutorial)</td>
+<td>CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record</td>
+<td>cdcwonder</td>
+<td>1) deaths_gender.xlsx 2) deaths_age_cat.xlsx 3) deaths_type_opioid.xlsx 4) cdc_wonder_year_cause_ hedegaard_et_al_2020.txt 5) cdc_wonder_year_cause_ state_hedegaard_et_al_2020.txt</td>
+<td>Python</td>
+</tr>
+</tbody>
+</table>
+<h2 id="working-with-the-tutorial-notebooks-in-interactive-mode">Working with the Tutorial Notebooks in interactive mode<a class="headerlink" href="#working-with-the-tutorial-notebooks-in-interactive-mode" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
 <p>Notebooks require linked access to all FAIR enabled repositories, as described <a href="#LinkingAccessTo">here</a>.</p>
@@ -260,7 +250,7 @@ state_hedegaard_et_al_2020.txt</p>
 <p>Code in the notebooks is editable, and users can import additional datasets and extend their analysis.</p>
 </li>
 </ul>
-<h3 id="demo-how-to-find-data-and-work-on-the-tutorial-notebooks">Demo - How to find data and work on the Tutorial Notebooks<a class="headerlink" href="#demo-how-to-find-data-and-work-on-the-tutorial-notebooks" title="Permanent link">###</a></h3>
+<h2 id="demo-how-to-find-data-and-work-on-the-tutorial-notebooks">Demo - How to find data and work on the Tutorial Notebooks<a class="headerlink" href="#demo-how-to-find-data-and-work-on-the-tutorial-notebooks" title="Permanent link">&para;</a></h2>
 <p>Below we describe the steps to export data from the Discovery Page tutorial Jupyter notebooks for one example tutorial notebook BACPAC_Synthetic_Data_Analysis.ipynb (“BACPAC synthetic data analysis”)</p>
 <p>Users must be logged in and have their accounts linked to the <a href="#LinkingAccessTo">FAIR repositories</a> in order to follow the steps below.</p>
 <ol>

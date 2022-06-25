@@ -8,7 +8,7 @@
         
         <link rel="canonical" href="https://heal-docs-dev.io/platform_overview/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Overview - HEAL Platform Documentation</title>
+        <title>Platform overview - HEAL Platform Documentation</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -36,19 +36,22 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../hosted_data_types/" class="nav-link">Types of Hosted Data</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="../data_mgmt_and_repos/" class="nav-link">Data Management and Repositories</a>
-                            </li>
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">HEAL Platform Quick Start <b class="caret"></b></a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data and Repositories <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Overview</a>
+    <a href="../hosted_data_types/" class="dropdown-item">Types of Hosted Data</a>
 </li>
+                                    
+<li>
+    <a href="../data_mgmt_and_repos/" class="dropdown-item">Data Management and Repositories</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">HEAL Platform Features <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
                                     
 <li>
     <a href="../platform_login/" class="dropdown-item">Login Page</a>
@@ -76,10 +79,10 @@
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="../platform_tutorial_videos/" class="nav-link">Tutorial Videos</a>
+                                <a href="../downloading_files/" class="nav-link">Data File Downloads</a>
                             </li>
                             <li class="navitem">
-                                <a href="../downloading_files/" class="nav-link">Data File Downloads</a>
+                                <a href="../platform_tutorial_videos/" class="nav-link">Tutorial Videos</a>
                             </li>
                             <li class="navitem">
                                 <a href="../faqs/" class="nav-link">FAQs</a>
@@ -95,16 +98,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../data_mgmt_and_repos/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../platform_login/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -123,40 +116,55 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
+            <li class="nav-item" data-level="1"><a href="#a-heal-platform-overview" class="nav-link">a) HEAL Platform Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h3 id="a-heal-platform-overview">a) HEAL Platform Overview<a class="headerlink" href="#a-heal-platform-overview" title="Permanent link">###</a></h3>
+<h1 id="a-heal-platform-overview">a) HEAL Platform Overview<a class="headerlink" href="#a-heal-platform-overview" title="Permanent link">&para;</a></h1>
 <p>Click on an icon to jump to the section</p>
-<ul>
-<li>
-<p><a href="#LoginPage"></a></p>
-<h5 id="login-page"><a href="#LoginPage">Login Page</a><a class="headerlink" href="#login-page" title="Permanent link">###</a></h5>
-<p>Log in here to unlock controlled-access data and workspace access with your credentials.</p>
-</li>
-<li>
-<p><a href="#Discovery"></a></p>
-<h5 id="discovery-page"><a href="#Discovery">Discovery Page</a><a class="headerlink" href="#discovery-page" title="Permanent link">###</a></h5>
-<p>Discover datasets across multiple resources and export selected data files to the analysis workspace.</p>
-</li>
-<li>
-<p><a href="#Workspaces"></a></p>
-<h5 id="workspaces"><a href="#Workspaces">Workspaces</a><a class="headerlink" href="#workspaces" title="Permanent link">###</a></h5>
-<p>Access data across multiple resources and perform analyses in a secure, cloud-based environment.</p>
-</li>
-<li>
-<p><a href="#StaticNoteboks"></a></p>
-<h5 id="example-analysis"><a href="#StaticNoteboks">Example Analysis</a><a class="headerlink" href="#example-analysis" title="Permanent link">###</a></h5>
-<p>Learn how to use Jupyter Notebooks to explore and visualize data available on the HEAL platform.</p>
-</li>
-<li>
-<p><a href="#ProfilePage"></a></p>
-<h5 id="profile-page"><a href="#ProfilePage">Profile Page</a><a class="headerlink" href="#profile-page" title="Permanent link">###</a></h5>
-<p>Review data access permissions and generate API credentials files used for programmatic access.</p>
-</li>
-</ul></div>
+<ul class="image-list-small">
+    <li>
+        <a href="#LoginPage" style="background-image: url('img/healdataorg_login.png');"></a>
+        <div class="details">
+            <h6><a href="#LoginPage">Login Page</a></h6>
+            <p class="image-author">Log in here to unlock controlled-access data and workspace access with your credentials.</p>
+        </div>
+    </li>
+    <li>
+        <a href="#Discovery" style="background-image: url('img/grid_discovery_color.png');"></a>
+        <div class="details">
+            <h6><a href="#Discovery">Discovery Page</a></h6>
+            <p class="image-author">Discover datasets across multiple resources and export selected data files to the analysis workspace.</p>
+        </div>
+    </li>
+    <li>
+        <a href="#Workspaces" style="background-image: url('img/workspace_flavors.png');"></a>
+        <div class="details">
+            <h6><a href="#Workspaces">Workspaces</a></h6>
+            <p class="image-author">Access data across multiple resources and perform analyses in a secure, cloud-based environment.</p>
+        </div>
+    </li>
+    <li>
+        <a href="#StaticNoteboks" style="background-image: url('img/grid_notebooks_color.png');"></a>
+        <div class="details">
+            <h6><a href="#StaticNoteboks">Example Analysis</a></h6>
+            <p class="image-author">Learn how to use Jupyter Notebooks to explore and visualize data available on the HEAL platform.</p>
+        </div>
+    </li>
+    <li>
+        <a href="#ProfilePage" style="background-image: url('img/profile_access.png');"></a>
+        <div class="details">
+            <h6><a href="#ProfilePage">Profile Page</a></h6>
+            <p class="image-author">Review data access permissions and generate API credentials files used for programmatic access.</p>
+        </div>
+    </li>
+</ul>
+</p></div>
             </div>
         </div>
 
