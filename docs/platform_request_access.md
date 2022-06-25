@@ -27,62 +27,18 @@ Users can download and/or export open-access study files after logging in. Curre
 
 Note, that different studies relate to different [Data Resources](#DataManagementRepositories).
 
-Project number
-
-Study Name
-
-Data Resource
-
-57b45d83d6c9e7e8693ccdfd
-
-Naloxone Overdose Prevention Laws
-
-PDAPS
-
-10.3886/ICPSR34945.v3
-
-National Mental Health Services Survey (N-MHSS)
-
-ICPSR
-
-1U24AR076730-01
-
-A synthetic dataset from the Back Pain Consortium (BACPAC) Research Program Data Integration, Algorithm Development and Operations Management Center
-
-HEAL
-
-10.3886/ICPSR04256.v5
-
-National Survey of Substance Abuse Treatment Services (N-SSATS)
-
-ICPSR
-
-cdcwonder
-
-CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record
-
-HEAL
-
-10.3886/ICPSR30122.v5
-
-Treatment Episode Data Set: Discharges (TEDS-D)
-
-ICPSR
-
-deaarcos1
-
-Drug Enforcement Administration Controlled Substances Tracking (DEA ARCOS)
-
-HEAL
-
-a) 1U2CDA050098-01\_a  
-b) 1U2CDA050098-01\_b
-
-JCOIN - Methodology and Advanced Analytics Resource Center:  
-a) JCOIN 026: Amerispeak Brief Stigma Survey  
-b) The Opioid Environment Policy Scan
-
-JCOIN
+| Project   number | Study Name | Data Resource |
+|---|---|---|
+| 57b45d83d6c9e7e8693ccdfd | Naloxone Overdose Prevention Laws | PDAPS |
+| 10.3886/ICPSR34945.v3 | National Mental Health Services   Survey (N-MHSS) | ICPSR |
+| 1U24AR076730-01 | A synthetic dataset from the Back   Pain Consortium (BACPAC) Research Program Data Integration, Algorithm   Development and Operations Management Center | HEAL |
+| 10.3886/ICPSR04256.v5 | National Survey of Substance Abuse   Treatment Services (N-SSATS) | ICPSR |
+| cdcwonder | CDC Wide-ranging Online Data for   Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public   Use Record | HEAL |
+| 10.3886/ICPSR30122.v5 | Treatment Episode Data Set:   Discharges (TEDS-D) | ICPSR |
+| deaarcos1 | Drug Enforcement Administration   Controlled Substances Tracking (DEA ARCOS) | HEAL |
+| a)   1U2CDA050098-01_a | JCOIN - Methodology and Advanced   Analytics Resource Center: | JCOIN |
+| b)   1U2CDA050098-01_b | a) JCOIN 026: Amerispeak Brief   Stigma Survey | JCOIN  |
+|   | b) The Opioid Environment Policy   Scan |JCOIN  |
 
 ### Overview of access to Datasets and Studies
 

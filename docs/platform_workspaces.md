@@ -52,22 +52,16 @@ Available workspaces on the HEAL Platform (top). Users may need to link their ac
     
       
     
-    > \- Attention: Any personal files in the folder “data” will be lost. Personal files in the directory /pd will persist.  
-    >   
-    > \- Do not save files in the "data" and “data/healdata.org” folders.  
-    >   
-    > \- The folder “healdata.org” in the “data” folder will host the data files you have exported from the Discovery Page.  
-    >   
-    
+- Attention: Any personal files in the folder “data” will be lost. Personal files in the directory /pd will persist.  
+- Do not save files in the "data" and “data/healdata.org” folders.  
+- The folder “healdata.org” in the “data” folder will host the data files you have exported from the Discovery Page.  
+
   
 11.  Start a new notebook by clicking “New” in the top right corner and choose between Python 3 or R Studio as the base programmatic language.  
       
 ![Workspace_new](img/workspace_new.png)
 
 Start a new notebook under “New”.
-    
-      
-      
     
 12.  Experiment away! Code blocks are entered in cells, which can be executed individually or all at once. Code documentation and comments can also be entered in cells, and the cell type can be set to support Markdown.  
       
@@ -83,10 +77,6 @@ Start a new notebook under “New”.
 ![Workspace_terminate](img/workspace_terminate_2.png)
 
 Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs.
-    
-      
-      
-    
 
 Further reading: read more about how to download data files into the Workspaces [here](#DownloadFilesSDKWorkspaces).
 
@@ -100,7 +90,11 @@ Upload data files or Notebooks to the workspace by clicking on “Upload” in t
 
   
 Then run in the cells, for example:  
-`import os   import pandas as pd   os.chdir('/data')   demo_df = pd.read_csv('/this_is_a_demo.txt', sep='\t')   demo_df.head()   `  
+> import os   
+import pandas as pd   
+os.chdir('/data')   
+demo_df = pd.read_csv('/this_is_a_demo.txt', sep='\t')   
+demo_df.head()  
 
 Users can save the notebook by clicking "File" - "Save as", as shown below.
 
@@ -162,7 +156,8 @@ If the upload was successful, the license appears in the directory /pd.
 _Note_, that uploading the license can also be achieved programmatically by opening a new terminal window under "New" - "Terminal", finding the directory /pd by typing: `cd pd` . Then, create a file using vim: `vim stata.lic` . This will open the file in the terminal. Users can copy the license, then hit `:` + `wq`.
 
 Then, users need to start a new notebook under "New" (choose either R or Python). Run the following code in the first cell:  
-`import stata_setup   stata_setup.config("/usr/local/stata17", "mp")   `
+> import stata_setup
+stata_setup.config("/usr/local/stata17", "mp") 
 
 This will return the following:
 

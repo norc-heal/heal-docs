@@ -55,10 +55,7 @@ Three options for Data Availability.
 ![discovery_options](img/discovery_options.png)
 
 Once available, each study can be selected and exported to workspace or downloaded.
-    
       
-      
-    
 *   Not available: This option will filter out all studies that will only have metadata but no datasets available. The checkbox next to the study will be greyed out and non-clickable.  
       
     ![Access_greyed_out_box](img/access_greyed_out_box.png)

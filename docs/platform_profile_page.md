@@ -6,8 +6,6 @@ On the profile page users will find information regarding their access to projec
 
 Users can view their study access in the Profile Page.
 
-  
-  
 ![profile_APIkey_active](img/profile_APIkey_active.png)
 
 API keys can be viewed, created, and downloaded on the Profile Page.

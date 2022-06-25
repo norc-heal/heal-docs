@@ -1,5 +1,4 @@
-5\. Downloading Data Files
---------------------------
+## 5\. Downloading Data Files
 
 Users can download data files associated with a study by downloading the files directly from the Discovery page, or leveraging the CTDS-owned python software development kit (SDK) and the tool “Gen3-client” if the file size exceeds 250 MB.
 
@@ -14,6 +13,7 @@ Users are reminded to link the account to all other FAIR enabled repositories, a
 ### a) Download Data Files from the Discovery Page
 
 Users can download data files up to sizes of 250 MB directly from the Discovery Page.  
+
 Below you find the simple steps to do so.
 
 1.  Navigate to the [Discovery Page](#Discovery). Link your accounts to FAIR repositories as described [here](#LinkingAccessTo).  
@@ -66,24 +66,23 @@ Find below a guide to download data files using the Gen3-client:
     
 2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/discovery). For multiple studies, select "Data Availability" in the top right corner, click “Available”, and choose multiple studies.
   
-4.  Click on the button “Download Manifest".  
-    ![discovery_select_study_download_manifest](img/discovery_select_study_download_manifest.png)
-    
-    Select a study of interest, then click on the button “Download Manifest".
-    
-      
-      
-    
+4.  Click on the button “Download Manifest".
+
+![discovery_select_study_download_manifest](img/discovery_select_study_download_manifest.png)
+
+Select a study of interest, then click on the button “Download Manifest".
+     
 5.  Create and download an API key from your [Profile Page](https://healdata.org/identity). Note where you save the API key on your local machine.  
-    ![profile_APIkey](img/profile_APIkey.png)
+
+![profile_APIkey](img/profile_APIkey.png)
     
-    Create an API key on the profile page.
+Create an API key on the profile page.
     
       
       
-    ![profile_APIkey_created](img/profile_APIkey_created.png)
-    
-    Download the API key as json file and note the directory where the API key was saved for step 6.
+![profile_APIkey_created](img/profile_APIkey_created.png)
+
+Download the API key as json file and note the directory where the API key was saved for step 6.
     
       
       
@@ -93,13 +92,38 @@ Find below a guide to download data files using the Gen3-client:
       
     b. In your terminal, configure your profile using the following command:  
       
-    `gen3-client configure --profile=<profile_name> --cred=<credentials.json> --apiendpoint=<api_endpoint_url>      #Mac/Linux:   gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/      #Windows:   gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/      #Output:   10:08:20 Profile 'demo' has been configured successfully.   ` 
-     
+    > `gen3-client configure --profile=<profile_name> --cred=<credentials.json> --apiendpoint=<api_endpoint_url>`     
+    
+    
+    Mac/Linux:   
+    
+    > `gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/`    
+    
+    Windows:   
+    
+    > `gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/`     
+    
+    If the command was succesful, you should get the following output:
+
+    ```10:08:20 Profile 'demo' has been configured successfully. ```
+
     If successfully executed, a configuration file will be stored under the directory the user specified under “cred”. For troubleshooting, refer to the instructions found [here](https://gen3.org/resources/user/gen3-client/#2-configure-a-profile-with-credentials).  
       
     c. Download files by using the following command, which references the manifest file name and its location:  
       
-    `gen3-client download-multiple --profile=<profile_name> --manifest=<manifest_file> --download-path=<path_for_files>      gen3-client download-multiple --profile=demo --manifest=manifest.json --download-path=downloads      #Output:   2021/06/03 16:48:46 Reading manifest...   200 B / 200 B [===================] 100.00% 0s   WARNING: flag "rename" was set to false in "original" mode, duplicated files under "downloads/" will be overwritten   Proceed? [y/n]: y   2021/06/03 16:48:47 Total number of GUIDs: 1   2021/06/03 16:48:47 Preparing file info for each file, please wait...   1 / 1 [============================================] 100.00% 0s   2021/06/03 16:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz 6.41 GiB / 6.41 GiB [=======================================================] 100.00% 0s      `
+    > `gen3-client download-multiple --profile=<profile_name> --manifest=<manifest_file> --download-path=<path_for_files>      gen3-client download-multiple --profile=demo --manifest=manifest.json --download-path=downloads`      
+    
+    
+    > `2021/06/03 16:48:46 Reading manifest...   200 B / 200 B [===================] 100.00% 0s   WARNING: flag "rename" was set to false in "original" mode, duplicated files under "downloads/" will be overwritten   Proceed? [y/n]: `
+
+    Enter:
+
+    > `y`
+    
+    
+    Output:
+
+    > `2021/06/03 16:48:47 Total number of GUIDs: 1   2021/06/03 16:48:47 Preparing file info for each file, please wait...   1 / 1 [============================================] 100.00% 0s   2021/06/03 16:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz 6.41 GiB / 6.41 GiB [=======================================================] 100.00% 0s`
   
 
 ### c) Download Data Files in Workspaces using the Python SDK
@@ -136,18 +160,19 @@ Users can download data files to the workspaces by leveraging the CTDS-owned pyt
       
     
 8.  *   Type in the following command to download the file to the terminal:  
-        `gen3 drs-pull object "guid"`  
+    > `gen3 drs-pull object "guid"`  
           
-        ![workspace_terminal_download](img/workspace_terminal_download.png)  
+    ![workspace_terminal_download](img/workspace_terminal_download.png)  
           
         
     *   If you are working in a notebook, type in the following command into a code cell to download the file:  
-        `!gen3 drs-pull object "guid"`  
+
+    > `!gen3 drs-pull object "guid"`  
           
-        ![workspace_download_one_file_sdk](img/workspace_download_one_file_sdk.png)  
+    ![workspace_download_one_file_sdk](img/workspace_download_one_file_sdk.png)  
           
         
-    *   If you use the R kernel, change the command into `system("gen3 drs-pull object 'guid'")`  
+    *  If you use the R kernel, change the command into `system("gen3 drs-pull object 'guid'")`  
           
         
     *   Note, that you can also use the manifest.json to download in batches, see below: ![workspace_download_from_manifest_sdk](img/workspace_download_from_manifest_sdk.png)

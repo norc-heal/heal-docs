@@ -6,13 +6,14 @@
 > This tab acts as a ['visual table of contents’](#CurrentlyAvailableNotebooks) of available HEAL datasets.
 
 ### HEAL Example Analysis
- 
+
 This video introduces users to the Example Analysis page, where users can browse Jupyter notebook demos to explore previous data analyses on the HEAL platform.  
 
 <!-- TODO: use mkdocs-videos -->
 <!-- ![type:video](videos/HEAL_UI_Demo_July_2021.mp4) -->
 <video controls width="600">
 <source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/mp4">
+<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/webm">
 </video>
    
 If your Browser does not support watching this video, here's a [link to the video](videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4) instead.  
@@ -47,129 +48,13 @@ Find below a list of notebooks that are currently available and which datasets t
 
 Please link your account to [all FAIR repositories](#LinkingAccessTo) before working with the Notebooks in interactive mode.
 
-Notebook  
-Name
-
-Project Title
-
-Project  
-Number
-
-Datasets used
-
-Language
-
-BACPAC Synthetic Data Analysis
-
-Back Pain Consortium (BACPAC)  
-Research Program Data Integration,  
-Algorithm Development and Operations  
-Management Center
-
-1U24AR076730-01
-
-1) participant\_  
-SMART.tsv  
-2) substance\_use\_  
-SMART.tsv  
-3) physical\_function\_  
-SMART.tsv
-
-Python
-
-JCOIN Tracking Opioid Stigma
-
-Methodology and Advanced  
-Analytics Resource Center
-
-1U2CDA050098-01\_a
-
-1) JCOIN\_NORC\_  
-Omnibus\_SURVEY1\_  
-Feb2020.sav  
-2) JCOIN\_NORC\_  
-Omnibus\_SURVEY2\_  
-April2020.sav  
-3) JCOIN\_NORC\_  
-Omnibus\_SURVEY3\_  
-June2020.sav  
-4) JCOIN\_NORC\_  
-Omnibus\_SURVEY4\_  
-Oct2020.sav
-
-Python
-
-Opioid Prevalence And Overdoses
-
-1) Drug Enforcement Administration  
-Controlled Substances Tracking (DEA ARCOS)  
-  
-2) Prescription Drug Abuse Policy System  
-  
-2b) 3) CDC Wide-ranging Online Data  
-for Epidemiologic Research (CDC WONDER)  
-Mortality Multiple Cause-of-Death  
-Public Use Record  
-
-1) deaarcos1  
-  
-2) 57b45d83d6  
-c9e7e8693ccdfd  
-  
-3) cdcwonder  
-
-1a) dea\_arcos\_drug\_list.tsv  
-1b) dea\_arcos\_county\_  
-population.tsv  
-1c) dea\_arcos\_combined\_  
-county\_annual.tsv  
-1d) dea\_arcos\_state\_population.tsv  
-  
-2a) 20170216-RM-Stat-Data.xlsx  
-2b) Naloxone\_Data\_09112020.xlsx  
-2c) 20180810\_Good\_Samaritan\_  
-Law\_Stat\_Data.xlsx  
-  
-3a) CDC\_WONDER\_unintentional\_  
-overdoses.tsv  
-3b) CDC\_WONDER\_suicide\_  
-overdoses.tsv  
-3c) monthly\_unintentional\_  
-overdoses.tsv  
-
-Python
-
-Opioid Environment Toolkit and OEPS R ([Watch tutorial](#Tutorials))
-
-Methodology and Advanced  
-Analytics Resource Center
-
-1U2CDA050098-01\_b
-
-1) ZIP\_COUNTY.xlsx  
-2) us-wide-moudsCleaned.csv  
-3) zctas2018.shp  
-
-RStudio
-
-Opioid Overdose Trajectories ([Watch tutorial](#Tutorials))
-
-CDC Wide-ranging Online Data  
-for Epidemiologic Research  
-(CDC WONDER) Mortality Multiple  
-Cause-of-Death Public Use Record
-
-cdcwonder
-
-1) deaths\_gender.xlsx  
-2) deaths\_age\_cat.xlsx  
-3) deaths\_type\_opioid.xlsx  
-4) cdc\_wonder\_year\_cause\_  
-hedegaard\_et\_al\_2020.txt  
-5) cdc\_wonder\_year\_cause\_  
-state\_hedegaard\_et\_al\_2020.txt
-
-Python
+| Notebook Name | Project Title | Project Number | Datasets used | Language |
+|---|---|---|---|---|
+| BACPAC Synthetic Data Analysis | Back Pain Consortium (BACPAC) Research Program Data Integration, Algorithm Development and Operations Management Center | 1U24AR076730-01 | 1) participant_ SMART.tsv 2) substance_use_ SMART.tsv 3) physical_function_ SMART.tsv | Python |
+| JCOIN Tracking Opioid Stigma | Methodology and Advanced Analytics Resource Center | 1U2CDA050098-01_a | 1) JCOIN_NORC_ Omnibus_SURVEY1_ Feb2020.sav 2) JCOIN_NORC_ Omnibus_SURVEY2_ April2020.sav 3) JCOIN_NORC_ Omnibus_SURVEY3_ June2020.sav 4) JCOIN_NORC_ Omnibus_SURVEY4_ Oct2020.sav | Python |
+| Opioid Prevalence And Overdoses | 1) Drug Enforcement Administration Controlled Substances Tracking (DEA ARCOS)  2) Prescription Drug Abuse Policy System  2b) 3) CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record | 1) deaarcos1  2) 57b45d83d6 c9e7e8693ccdfd  3) cdcwonder | 1a) dea_arcos_drug_list.tsv 1b) dea_arcos_county_ population.tsv 1c) dea_arcos_combined_ county_annual.tsv 1d) dea_arcos_state_population.tsv  2a) 20170216-RM-Stat-Data.xlsx 2b) Naloxone_Data_09112020.xlsx 2c) 20180810_Good_Samaritan_ Law_Stat_Data.xlsx  3a) CDC_WONDER_unintentional_ overdoses.tsv 3b) CDC_WONDER_suicide_ overdoses.tsv 3c) monthly_unintentional_ overdoses.tsv | Python |
+| Opioid Environment Toolkit and OEPS R (Watch tutorial) | Methodology and Advanced Analytics Resource Center | 1U2CDA050098-01_b | 1) ZIP_COUNTY.xlsx 2) us-wide-moudsCleaned.csv 3) zctas2018.shp | RStudio |
+| Opioid Overdose Trajectories (Watch tutorial) | CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record | cdcwonder | 1) deaths_gender.xlsx 2) deaths_age_cat.xlsx 3) deaths_type_opioid.xlsx 4) cdc_wonder_year_cause_ hedegaard_et_al_2020.txt 5) cdc_wonder_year_cause_ state_hedegaard_et_al_2020.txt | Python |
 
 ### Working with the Tutorial Notebooks in interactive mode
 

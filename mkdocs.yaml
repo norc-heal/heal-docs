@@ -4,18 +4,19 @@ site_url: https://heal-docs-dev.io
 repo_url: 
 nav:
   - Home: index.md
-  - Types of Hosted Data: hosted_data_types.md
-  - Data Management and Repositories: data_mgmt_and_repos.md
-  - HEAL Platform Quick Start:
-    - Overview: platform_overview.md
+  - Data and Repositories:
+      Types of Hosted Data: hosted_data_types.md
+      Data Management and Repositories: data_mgmt_and_repos.md
+  - HEAL Platform Features:
     - Login Page: platform_login.md
     - Access check/request: platform_request_access.md
     - Discovery Page: platform_discovery_page.md
     - Workspaces: platform_workspaces.md
     - Example Analysis Page: platform_example_analyses.md
     - Profile Page: platform_profile_page.md
-  - Tutorial Videos: platform_tutorial_videos.md
   - Data File Downloads: downloading_files.md
+  - Tutorial Videos: platform_tutorial_videos.md
+  
   - FAQs: faqs.md
   - Contact: contact.md
 # extra_css:
@@ -26,7 +27,8 @@ theme:
 use_directory_urls: true
 markdown_extensions:
     - toc:
-        permalink: "###"
+        permalink: True
+        baselevel: 0
 plugins:
   - search
   # - mkdocs-video: 
