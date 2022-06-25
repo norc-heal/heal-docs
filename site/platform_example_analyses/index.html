@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://heal-docs-dev.io/platform_example_analyses/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Example Analysis Page - HEAL Platform Documentation</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">HEAL Platform Documentation</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data and Repositories <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../hosted_data_types/" class="dropdown-item">Types of Hosted Data</a>
+</li>
+                                    
+<li>
+    <a href="../data_mgmt_and_repos/" class="dropdown-item">Data Management and Repositories</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">HEAL Platform Features <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../platform_login/" class="dropdown-item">Login Page</a>
+</li>
+                                    
+<li>
+    <a href="../platform_request_access/" class="dropdown-item">Access check/request</a>
+</li>
+                                    
+<li>
+    <a href="../platform_discovery_page/" class="dropdown-item">Discovery Page</a>
+</li>
+                                    
+<li>
+    <a href="../platform_workspaces/" class="dropdown-item">Workspaces</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Example Analysis Page</a>
+</li>
+                                    
+<li>
+    <a href="../platform_profile_page/" class="dropdown-item">Profile Page</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../downloading_files/" class="nav-link">Data File Downloads</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../platform_tutorial_videos/" class="nav-link">Tutorial Videos</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../faqs/" class="nav-link">FAQs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../contact/" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../platform_workspaces/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../platform_profile_page/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#f-example-analysis" class="nav-link">f) Example Analysis</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#heal-example-analysis" class="nav-link">HEAL Example Analysis</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#why-tutorial-notebooks" class="nav-link">Why tutorial Notebooks?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#currently-available-notebooks" class="nav-link">Currently available Notebooks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#working-with-the-tutorial-notebooks-in-interactive-mode" class="nav-link">Working with the Tutorial Notebooks in interactive mode</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#demo-how-to-find-data-and-work-on-the-tutorial-notebooks" class="nav-link">Demo - How to find data and work on the Tutorial Notebooks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="f-example-analysis">f) Example Analysis<a class="headerlink" href="#f-example-analysis" title="Permanent link">&para;</a></h1>
+<p><a href="https://healdata.org/resource-browser">The Example Analysis page</a> contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.</p>
+<blockquote>
+<p>This tab acts as a <a href="#CurrentlyAvailableNotebooks">'visual table of contents’</a> of available HEAL datasets.</p>
+</blockquote>
+<h2 id="heal-example-analysis">HEAL Example Analysis<a class="headerlink" href="#heal-example-analysis" title="Permanent link">&para;</a></h2>
+<p>This video introduces users to the Example Analysis page, where users can browse Jupyter notebook demos to explore previous data analyses on the HEAL platform.  </p>
+<!-- TODO: use mkdocs-videos -->
+<!-- ![type:video](videos/HEAL_UI_Demo_July_2021.mp4) -->
+<video controls width="600">
+<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/mp4">
+<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/webm">
+</video>
+
+<p>If your Browser does not support watching this video, here's a <a href="../videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4">link to the video</a> instead.  </p>
+<p>Currently available static Jupter Notebooks:</p>
+<p><img alt="grid_notebooks_color" src="../img/grid_notebooks_color.png" /></p>
+<h2 id="why-tutorial-notebooks">Why tutorial Notebooks?<a class="headerlink" href="#why-tutorial-notebooks" title="Permanent link">&para;</a></h2>
+<p>These notebooks will allow users to learn how to analyze and visualize data available on the HEAL platform - without having to take the additional steps of finding and exporting the data used by the tutorial first.</p>
+<blockquote>
+<p>All tutorial notebooks are static, view-only, and can be downloaded as <code>.html</code> files.<br />
+Find the notebooks in interactive mode in the <a href="#Workspaces">Workspace tab</a>.<br />
+Find below a description of how to <a href="#WorkingTutorialNotebooksInteractively">work with the tutorials in the workspaces</a>.  </p>
+</blockquote>
+<p>These tutorial notebooks are meant to:</p>
+<ul>
+<li>Give users a sense for how the platform can be used to analyze data.</li>
+<li>Bring complementary datasets together.</li>
+<li>Be used as a launching point for the users’ own custom analysis.</li>
+<li>Spark imagination about how users can incorporate the platform data access, analysis, and collaboration tools into their own research and data analysis process and pipelines.</li>
+</ul>
+<p>The “Example Analysis” tab will be regularly updated with new and exciting tutorial data analysis notebooks, as more datasets are published and brought together in novel ways on the Platform.</p>
+<h2 id="currently-available-notebooks">Currently available Notebooks<a class="headerlink" href="#currently-available-notebooks" title="Permanent link">&para;</a></h2>
+<p>Find below a list of notebooks that are currently available and which datasets they’re based on.</p>
+<blockquote>
+<p>Click <a href="#Tutorials">here</a> to watch demo videos about how to use the tutorial Jupyter Notebooks as a launching point for your own custom analysis.</p>
+</blockquote>
+<p>Please link your account to <a href="#LinkingAccessTo">all FAIR repositories</a> before working with the Notebooks in interactive mode.</p>
+<table>
+<thead>
+<tr>
+<th>Notebook Name</th>
+<th>Project Title</th>
+<th>Project Number</th>
+<th>Datasets used</th>
+<th>Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BACPAC Synthetic Data Analysis</td>
+<td>Back Pain Consortium (BACPAC) Research Program Data Integration, Algorithm Development and Operations Management Center</td>
+<td>1U24AR076730-01</td>
+<td>1) participant_ SMART.tsv 2) substance_use_ SMART.tsv 3) physical_function_ SMART.tsv</td>
+<td>Python</td>
+</tr>
+<tr>
+<td>JCOIN Tracking Opioid Stigma</td>
+<td>Methodology and Advanced Analytics Resource Center</td>
+<td>1U2CDA050098-01_a</td>
+<td>1) JCOIN_NORC_ Omnibus_SURVEY1_ Feb2020.sav 2) JCOIN_NORC_ Omnibus_SURVEY2_ April2020.sav 3) JCOIN_NORC_ Omnibus_SURVEY3_ June2020.sav 4) JCOIN_NORC_ Omnibus_SURVEY4_ Oct2020.sav</td>
+<td>Python</td>
+</tr>
+<tr>
+<td>Opioid Prevalence And Overdoses</td>
+<td>1) Drug Enforcement Administration Controlled Substances Tracking (DEA ARCOS)  2) Prescription Drug Abuse Policy System  2b) 3) CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record</td>
+<td>1) deaarcos1  2) 57b45d83d6 c9e7e8693ccdfd  3) cdcwonder</td>
+<td>1a) dea_arcos_drug_list.tsv 1b) dea_arcos_county_ population.tsv 1c) dea_arcos_combined_ county_annual.tsv 1d) dea_arcos_state_population.tsv  2a) 20170216-RM-Stat-Data.xlsx 2b) Naloxone_Data_09112020.xlsx 2c) 20180810_Good_Samaritan_ Law_Stat_Data.xlsx  3a) CDC_WONDER_unintentional_ overdoses.tsv 3b) CDC_WONDER_suicide_ overdoses.tsv 3c) monthly_unintentional_ overdoses.tsv</td>
+<td>Python</td>
+</tr>
+<tr>
+<td>Opioid Environment Toolkit and OEPS R (Watch tutorial)</td>
+<td>Methodology and Advanced Analytics Resource Center</td>
+<td>1U2CDA050098-01_b</td>
+<td>1) ZIP_COUNTY.xlsx 2) us-wide-moudsCleaned.csv 3) zctas2018.shp</td>
+<td>RStudio</td>
+</tr>
+<tr>
+<td>Opioid Overdose Trajectories (Watch tutorial)</td>
+<td>CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record</td>
+<td>cdcwonder</td>
+<td>1) deaths_gender.xlsx 2) deaths_age_cat.xlsx 3) deaths_type_opioid.xlsx 4) cdc_wonder_year_cause_ hedegaard_et_al_2020.txt 5) cdc_wonder_year_cause_ state_hedegaard_et_al_2020.txt</td>
+<td>Python</td>
+</tr>
+</tbody>
+</table>
+<h2 id="working-with-the-tutorial-notebooks-in-interactive-mode">Working with the Tutorial Notebooks in interactive mode<a class="headerlink" href="#working-with-the-tutorial-notebooks-in-interactive-mode" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Notebooks require linked access to all FAIR enabled repositories, as described <a href="#LinkingAccessTo">here</a>.</p>
+</li>
+<li>
+<p>Code in the notebooks is editable, and users can import additional datasets and extend their analysis.</p>
+</li>
+</ul>
+<h2 id="demo-how-to-find-data-and-work-on-the-tutorial-notebooks">Demo - How to find data and work on the Tutorial Notebooks<a class="headerlink" href="#demo-how-to-find-data-and-work-on-the-tutorial-notebooks" title="Permanent link">&para;</a></h2>
+<p>Below we describe the steps to export data from the Discovery Page tutorial Jupyter notebooks for one example tutorial notebook BACPAC_Synthetic_Data_Analysis.ipynb (“BACPAC synthetic data analysis”)</p>
+<p>Users must be logged in and have their accounts linked to the <a href="#LinkingAccessTo">FAIR repositories</a> in order to follow the steps below.</p>
+<ol>
+<li>
+<p>Go to the <a href="https://healdata.org/workspace">Workspace tab</a> and click “Launch” on the “BACPAC Synthetic Data Analysis Notebook”. This may take a few minutes to load.<br />
+    Note, that depending on the chosen notebook, this step varies to align with the name of the notebook/workspace.<br />
+<img alt="static_notebook_bacpac_demo_1" src="../img/static_notebook_bacpac_demo_1.png" />  </p>
+</li>
+<li>
+<p>Find and open the notebook in the landing directory by clicking on “BACPAC_Synthetic_Data_Analysis.ipynb".<br />
+<img alt="notebook_browser_notebook1" src="../img/static_notebook_bacpac_demo.png" />  </p>
+</li>
+<li>
+<p>Click the first two cells and run them by clicking into the cell and either using shift+enter on the keyboard or selecting “Run”. Uncomment the commands as displayed below to install necessary packages.<br />
+<img alt="notebook_browser_run_cell" src="../img/notebook_browser_run_cell.png" />  </p>
+</li>
+<li>
+<p>Run the next cell to import the data files.<br />
+<img alt="static_notebook_bacpac_manifestname" src="../img/static_notebook_bacpac_manifestname.png" />  </p>
+</li>
+<li>
+<p>Explore the rest of the notebook. If you want to make changes, make sure to save the notebook as a new file in the directory "pd".  </p>
+</li>
+<li>
+<p>Make sure to terminate the workspace when the work is finished to reduce computational costs.</p>
+</li>
+</ol>
+<p>Note: Work must be saved in the directory "/pd" in order to remain accessible after workspace termination. Note, that Workspaces automatically shut down after 90 minutes of <a href="#AutomaticWorkspaceShutdown">idle time.</a></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
