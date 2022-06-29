@@ -92,16 +92,21 @@ Download the API key as json file and note the directory where the API key was s
       
     b. In your terminal, configure your profile using the following command:  
       
-    > `gen3-client configure --profile=<profile_name> --cred=<credentials.json> --apiendpoint=<api_endpoint_url>`     
-    
-    
+    ```shell
+    gen3-client configure --profile=<profile_name> --cred=<credentials.json> --apiendpoint=<api_endpoint_url>`
+    ```
+   
     Mac/Linux:   
     
-    > `gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/`    
+    ```bash
+    gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/
+    ```
     
     Windows:   
     
-    > `gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/`     
+    ```ps
+    gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/
+    ```
     
     If the command was succesful, you should get the following output:
 
@@ -111,19 +116,33 @@ Download the API key as json file and note the directory where the API key was s
       
     c. Download files by using the following command, which references the manifest file name and its location:  
       
-    > `gen3-client download-multiple --profile=<profile_name> --manifest=<manifest_file> --download-path=<path_for_files>      gen3-client download-multiple --profile=demo --manifest=manifest.json --download-path=downloads`      
+    ```bash
+    gen3-client download-multiple --profile=<profile_name> --manifest=<manifest_file> --download-path=<path_for_files>
+    ```
+    For example:
+    ```bash
+    gen3-client download-multiple --profile=demo --manifest=manifest.json --download-path=downloads
+    ```
     
     
-    > `2021/06/03 16:48:46 Reading manifest...   200 B / 200 B [===================] 100.00% 0s   WARNING: flag "rename" was set to false in "original" mode, duplicated files under "downloads/" will be overwritten   Proceed? [y/n]: `
+    ```bash 
+    2021/06/03 16:48:46 Reading manifest...   200 B / 200 B [===================] 100.00% 0s  
+    WARNING: flag "rename" was set to false in "original" mode, duplicated files under "downloads/" will be overwritten   
+    Proceed? [y/n]:
+    ```
 
     Enter:
 
-    > `y`
+    ```bash
+    y
+    ```
     
     
     Output:
 
-    > `2021/06/03 16:48:47 Total number of GUIDs: 1   2021/06/03 16:48:47 Preparing file info for each file, please wait...   1 / 1 [============================================] 100.00% 0s   2021/06/03 16:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz 6.41 GiB / 6.41 GiB [=======================================================] 100.00% 0s`
+    ```bash
+    2021/06/03 16:48:47 Total number of GUIDs: 1   2021/06/03 16:48:47 Preparing file info for each file, please wait...   1 / 1 [============================================] 100.00% 0s   2021/06/03 16:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz 6.41 GiB / 6.41 GiB [=======================================================] 100.00% 0s
+    ```
   
 
 ### c) Download Data Files in Workspaces using the Python SDK
@@ -160,7 +179,9 @@ Users can download data files to the workspaces by leveraging the CTDS-owned pyt
       
     
 8.  *   Type in the following command to download the file to the terminal:  
-    > `gen3 drs-pull object "guid"`  
+    ```bash
+    gen3 drs-pull object "guid"
+    ```
           
     ![workspace_terminal_download](img/workspace_terminal_download.png)  
           
