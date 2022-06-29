@@ -7,21 +7,21 @@ On the highest level, the data hosted on the HEAL Platform range from study meta
 
 The HEAL platform aims to make data more accessible by following the "FAIR" principles:
 
-Findable
+**F**indable
 
 *   Researchers are provided an intuitive interface to search over metadata for HEAL studies and related datasets.
 *   Each study and dataset will be assigned a unique, persistent identifier.
 
-Accessible
+**A**ccessible
 
 *   Authenticated users can request and receive access to controlled-access data by data providers.
 *   Metadata can be accessed via an open API.
 
-Interoperable
+**I**nteroperable
 
 *   Standard metadata vocabularies facilitate discovery and joint analysis of HEAL and related datasets. Data can
 *   Data can be easily exported to various workspaces for analysis using a variety of software tools.
 
-Reusable
+**R**eusable
 
 *   Data can be easily reused to facilitate reproducibility of results, development and sharing of new tools, and collaboration between investigators.
