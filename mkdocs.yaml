@@ -19,23 +19,34 @@ nav:
   
   - FAQs: faqs.md
   - Contact: contact.md
-# extra_css:
-#   - css/healdata_org2.css
+
 theme:
-  name: mkdocs
-  # custom_dir: custom_theme/
+  name: material
+  palette:
+    scheme: heal_platform
+  font:
+    text: Montserrat
+  logo: assets/HEAL_Initiative_White.svg
+  features:
+    - navigation.instant
+    - navigation.tabs
+extra_css:
+  - stylesheets/extra.css
+extra:
+  homepage: https://healdata.org
 use_directory_urls: true
 markdown_extensions:
-    - toc:
-        permalink: True
-        baselevel: 0
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: True
+      baselevel: 0
 plugins:
   - search
-  # - mkdocs-video: 
-  #     is_video: True 
-  #- mermaid2
-  #- offline
-
+  - mkdocs-video:
+      css_style:
+        height: "50vh"
+        width: "100%"
 
 # TODO: add footer (this may be included in the custom jinja template?)
 #    [![](img/gen3.png)](https://ctds.uchicago.edu/gen3)[![](img/createdby.png)](https://ctds.uchicago.edu/)

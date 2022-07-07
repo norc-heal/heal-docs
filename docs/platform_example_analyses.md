@@ -1,5 +1,5 @@
 
-## f) Example Analysis
+## Example Analysis
 
 [The Example Analysis page](https://healdata.org/resource-browser) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
 

@@ -1,5 +1,4 @@
-
-## 2\. Types of hosted Data
+## Types of Hosted Data
 
 The HEAL Platform provides secure access to data that is the product of opioid research and will be the driving engine for new discovery.
 

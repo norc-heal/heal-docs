@@ -1,5 +1,5 @@
-3\. Data Management and Repositories
-------------------------------------
+Data Management and Repositories
+--------------------------------
 
 As part of the NIH HEAL Initiative, the HEAL Platform securely exposes data stored on multiple HEAL-approved FAIR repositories, i.e. data libraries or archives. Thus, the aim of the platform is to provide an easy way to connect different repositories on one single location.
 
@@ -9,23 +9,25 @@ For more information from NIH, see [https://heal.nih.gov/about/public-access-dat
 
 Currently, the HEAL platform makes data available from the following FAIR Data Resources or Repositories:
 
-![data_resources](img/data_resources.png)
-
-Current Data Resources on the HEAL Data Platform.
+<figure markdown>
+  ![Data Resources](img/data_resources.png){ width="350" }
+  <figcaption>Current Data Resources on the HEAL Data Platform.</figcaption>
+</figure>
 
 Studies from different Data Resources can be filtered and selected on the [Discovery Page](#Discovery) in the Study Characteristics section (top panel):
 
-![data_resources_tags](img/data_resources_tags.png)
-
-Studies can be filtered by Data Resource using tags.
+<figure markdown>
+  ![Filtering Using Tags](img/data_resources_tags.png){ width="250" }
+  <figcaption>Studies can be filtered by Data Resource using tags.</figcaption>
+</figure>
 
 In the following, we list a short summary of datasets shared from each repository.
 
-### a) HEAL
+### HEAL
 
 At this time, the HEAL Platform shares metadata of 565 studies from [https://heal.nih.gov/funding/awarded](https://heal.nih.gov/funding/awarded) (status Feb 2021) under the general tag "HEAL". As more data become available to the public, the metadata and datasets will be distributed to different FAIR repositories.
 
-### b) Clinical Trials
+### Clinical Trials
 
 ClinicalTrials.gov is a Web-based resource that provides patients, their family members, health care professionals, researchers, and the public with easy access to information on publicly and privately supported clinical studies on a wide range of diseases and conditions. For more information, please click [here](https://clinicaltrials.gov/ct2/about-site/background).
 
@@ -57,7 +59,7 @@ Currently, the HEAL platform shares 25 studies from the [Clinical Trials](https:
 24.  [Suicide Prediction and Prevention for People at Risk for Opioid Use Disorder: Supplement to COMPUTE 2.0](https://healdata.org/discovery/A20-042/)
 25.  [Prevention of OUD: The HOME Project (Housing, Opportunities, Motivation and Engagement)](https://healdata.org/discovery/2019B0287/)
 
-### c) Inter-university Consortium for Political and Social Research (ICPSR)
+### Inter-university Consortium for Political and Social Research (ICPSR)
 
 ICPSR is a data repository that in itself is an international consortium of more than 750 academic institutions and research organizations. ICPSR maintains a data archive of more than 250,000 files of research, and hosts many specialized collections. For more information, please click [here](https://www.icpsr.umich.edu/web/pages/about/).
 
@@ -72,7 +74,7 @@ Currently, the HEAL platform shares 8 studies from the [ICPSR](https://www.icpsr
 7.  [Michigan Automated Prescription System (MAPS), January 2014-March 2021](https://healdata.org/discovery/10.3886%2FICPSR37887.v2/)
 8.  [Michigan Automated Prescription System (MAPS), May 2020 Data](https://healdata.org/discovery/10.3886%2FICPSR37833.v1/)
 
-### d) Justice Community Opioid Innovation Network (JCOIN)
+### Justice Community Opioid Innovation Network (JCOIN)
 
 The NIH HEAL Initiative will support the Justice Community Opioid Innovation Network (JCOIN) to study approaches to increase high-quality care for people with opioid misuse and Opioid Use Disorder in justice settings. JCOIN will test strategies to expand effective treatment and care in partnership with local and state justice systems and community-based treatment providers. For more information, please click [here](https://heal.nih.gov/research/research-to-practice/jcoin).
 
@@ -81,7 +83,7 @@ Currently, the HEAL platform shares 2 studies from the [JCOIN](https://heal.nih.
 1.  [Methodology and Advanced Analytics Resource Center - AmeriSpeak Opioid Stigma Surveys](https://healdata.org/discovery/1U2CDA050098-01_a/). Repeated cross-sectional survey tracking stigma and public attitudes towards opioid use disorder over time in a nationally representative sample.
 2.  [Methodology and Advanced Analytics Resource Center - The Opioid Environment Policy Scan](https://healdata.org/discovery/1U2CDA050098-01_b/). The Opioid Environment Policy Scan provides access to data at multiple spatial scales to help characterize the multi-dimensional risk environment impacting opioid use in justice populations across the United States.
 
-### e) Prescription Drug Abuse Policy System (PDAPS)
+### Prescription Drug Abuse Policy System (PDAPS)
 
 PDAPS was created with funding from the National Institute on Drug Abuse to track key state laws related to prescription drug abuse. PDAPS is a source of rigorous legal data for researchers and detailed policy information for the public. For more information, please click [here](https://pdaps.org/).
 

@@ -1,4 +1,9 @@
-## 7\. Tutorial Videos
+---
+hide:
+  - navigation
+---
+
+## Tutorial Videos
 
 Watch our tutorial videos to learn how to interact with the HEAL Platform, export data files from the Discovery Page, and use the tutorial Jupyter Notebooks as a launching point for your own custom analysis.
 

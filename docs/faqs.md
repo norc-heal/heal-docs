@@ -1,5 +1,11 @@
-6\. FAQ
--------
+---
+hide:
+  - navigation
+  - toc
+---
+
+FAQs
+----
 
 1.  What can I do on the HEAL Platform?  
       

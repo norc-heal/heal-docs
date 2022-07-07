@@ -1,4 +1,4 @@
-## b) Login Page
+## Login Page
 
 You will not need to log in in order to:
 

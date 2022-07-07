@@ -1,4 +1,19 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
+<!-- <style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style> -->
+
 [![](img/NIH_HEAL_header.jpg)](https://healdata.org/)
+
+## The HEAL Platform
 
 The [HEAL Platform](https://healdata.org/) is a cloud-based and multifunctional web interface that provides a secure environment for discovery and analysis of [NIH HEAL](https://heal.nih.gov/) results and data. It is designed to serve users with a variety of objectives, backgrounds, and specialties.
 
@@ -11,14 +26,10 @@ The HEAL platform also offers a secure and cost-effective cloud-computing enviro
 The HEAL Platform is powered by the open-source [software “Gen3”](https://ctds.uchicago.edu/gen3) . Gen3 was created by and is actively developed at the University of Chicago’s Center for Translational Data Science (CTDS) with the aim of creating interoperable cloud-based data resources for the scientific research community.
 
 Powered by  
-[![Gen3_logo](img/gen3_grey.png)](https://ctds.uchicago.edu/gen3)
+[![Gen3_logo](img/gen3_grey.png){: style="height:50px"}](https://ctds.uchicago.edu/gen3)
 
 Watch the introduction video to the HEAL Platform below
 
-<!-- TODO: use mkdocs-videos -->
-<!-- ![type:video](videos/HEAL_UI_Demo_July_2021.mp4) -->
-<video controls width="600">
-<source src="videos/HEAL_UI_Demo_July_2021.mp4" type="video/mp4">
-</video>
+![type:video](videos/HEAL_UI_Demo_July_2021.mp4)
   
-  If your Browser does not support watching this video, here's a [link to the video](videos/HEAL_UI_Demo_July_2021.mp4) instead.
+If your Browser does not support watching this video, here's a [link to the video](videos/HEAL_UI_Demo_July_2021.mp4) instead.

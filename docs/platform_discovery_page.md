@@ -1,5 +1,5 @@
 
-## d) Discovery Page
+## Discovery Page
 
 [The Discovery Page](https://healdata.org/discovery) provides users a venue to search and find studies and datasets displayed in the HEAL Platform. Users can browse through the publicly accessible study-level metadata without requiring authorization.
 
