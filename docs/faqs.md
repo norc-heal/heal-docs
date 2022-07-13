@@ -9,7 +9,7 @@ FAQs
 
 1.  What can I do on the HEAL Platform?  
       
-    The HEAL Platform is a cloud-based and multifunctional web interface that provides a secure environment for discovery and analysis of HEAL results and data. Explore all functionalities [here](#HEALPlatform).  
+    The HEAL Platform is a cloud-based and multifunctional web interface that provides a secure environment for discovery and analysis of HEAL results and data. Explore all functionalities [here](#platform_login.md).  
       
     
 2.  Which datasets are currently open-access?  
