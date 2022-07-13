@@ -61,14 +61,10 @@ Once available, each study can be selected and exported to workspace or download
     ![Access_greyed_out_box](img/access_greyed_out_box.png)
     
     Studies will grey out if they're not available, have no data attached, users have no access to, or are in pending mode.
-    
-      
-      
-    
+        
 *   Pending: This option will display studies located on any data resource or repository, for which attached datasets will be added in the near future. The checkbox next to the study will be greyed out and non-clickable as shown above.  
       
-    
-
+ 
 ### Select Files on the Discovery Page and bring them to the Workspace
 
 ![Discovery_exporting_to_workspace](img/discovery_exporting_to_workspace.gif)
