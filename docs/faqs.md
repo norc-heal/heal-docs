@@ -9,7 +9,7 @@ FAQs
 
 1. What can I do on the HEAL Platform?  
       
-    The HEAL Platform is a cloud-based and multifunctional web interface that provides a secure environment for discovery and analysis of HEAL results and data. Explore all functionalities [here](#platform_login.md).  
+    The HEAL Platform is a cloud-based and multifunctional web interface that provides a secure environment for discovery and analysis of HEAL results and data. Explore all functionalities [here](platform_login.md).  
       
     
 2. Which datasets are currently open-access?  
@@ -19,7 +19,7 @@ FAQs
     
 3. Where can I see individual study metadata?  
       
-    Individual study metadata is shown upon clicking on a study entry on the Discovery Page. Click to read the full description [here](#Discovery).  
+    Individual study metadata is shown upon clicking on a study entry on the Discovery Page. Click to read the full description [here](platform_discovery_page.md).  
       
     
 4. Do I need to store my data in a particular location to participate in the HEAL platform?  
