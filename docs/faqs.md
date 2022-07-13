@@ -31,7 +31,7 @@ FAQs
 
 5. How and where can I see if I have access to a study?  
       
-    Clicking on an individual study on the Discovery Page will show in the top right corner if they are accessible to the user. To see all studies users have access to, users should navigate to the Discovery Page and select “Data Availability” - Available”. More information [here](#AccessCheck).       
+    Clicking on an individual study on the Discovery Page will show in the top right corner if they are accessible to the user. To see all studies users have access to, users should navigate to the Discovery Page and select “Data Availability” - Available”. More information [here](platform_request_access.md).       
     
 6. I do not have access to a specific study, how can I get access?  
       
@@ -45,7 +45,7 @@ FAQs
   
 8. I would like to download data files from a specific study, what do I need to do?  
       
-    Users can download the studies directly from the Discovery Page as described [here](#DownloadFilesfromDiscovery), or, if the file size exceeds 250 MB, users need to use the Gen3-client command line tool to download data files, as described [here](#DownloadingDataFiles). Additional information on the Gen3-client may be found [here](https://gen3.org/resources/user/gen3-client/).  
+    Users can download the studies directly from the Discovery Page as described [here](downloading_files.md), or, if the file size exceeds 250 MB, users need to use the Gen3-client command line tool to download data files, as described [here](#DownloadingDataFiles). Additional information on the Gen3-client may be found [here](https://gen3.org/resources/user/gen3-client/).  
       
     
 9. How can I get data files into the Workspace from the Discovery Page?
