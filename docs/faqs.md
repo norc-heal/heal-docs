@@ -50,12 +50,12 @@ FAQs
     
 9. How can I get data files into the Workspace from the Discovery Page?
 
-    Click [here](#SelectBringFilesDiscoveryToWorkspace) to follow the steps on how to get files from the Discovery Page to the Workspace.  
+    Click [here](platform_discovery_page.md#select-files-on-the-discovery-page-and-bring-them-to-the-workspace) to follow the steps on how to get files from the Discovery Page to the Workspace.  
 
 
 10. How do I find a study?  
       
-    Click [here](#SearchFeatures) to see possible ways to search for a study on the Discovery Page.  
+    Click [here](platform_discovery_page.md#search-features) to see possible ways to search for a study on the Discovery Page.  
 
 
 11. Can I download files directly from the portal?
