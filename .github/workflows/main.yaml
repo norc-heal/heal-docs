@@ -5,8 +5,6 @@ name: Build Documentation using MkDocs
 on:
   push:
     branches: [master]
-  pull_request:
-  pull_request_review:
 
 jobs:
   build:
@@ -29,5 +27,5 @@ jobs:
 
       - name: Deploy
         run: |
-          git pull origin master
+          git pull
           mkdocs gh-deploy
