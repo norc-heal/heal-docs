@@ -35,6 +35,7 @@ theme:
     - navigation.tracking
     #- navigation.sections
     #- toc.integrate
+  favicon: img/heal_logo.png
 extra_css:
   - stylesheets/extra.css
 extra:
