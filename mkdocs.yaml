@@ -28,8 +28,13 @@ theme:
     text: Montserrat
   logo: assets/HEAL_Initiative_White.svg
   features:
+    #- navigation.indexes
     - navigation.instant
-    - navigation.tabs
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    - navigation.tracking
+    #- navigation.sections
+    #- toc.integrate
 extra_css:
   - stylesheets/extra.css
 extra:
