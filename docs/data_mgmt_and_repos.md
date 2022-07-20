@@ -7,7 +7,7 @@ The following is a non-exhaustive selection of repositories and resources curren
 
 <figure markdown>
   ![Data Resources](img/data_resources.png){ width="600" }
-  <figcaption>Current Data Resources on the HEAL Data Platform.</figcaption>
+  <figcaption>Representation of Data Resources on the HEAL Data Platform.</figcaption>
 </figure>
 
 Studies from different Data Resources can be filtered and selected on the [Discovery Page](#Discovery) in the Study Filters section (top panel):
