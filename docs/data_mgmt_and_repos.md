@@ -6,14 +6,14 @@ To help HEAL investigators in the repository selection process, the HEAL Data St
 The following is a non-exhaustive selection of repositories and resources currently made accessible through or leveraged by the Heal Platform:
 
 <figure markdown>
-  ![Data Resources](img/data_resources.png){ width="350" }
+  ![Data Resources](img/data_resources.png){ width="600" }
   <figcaption>Current Data Resources on the HEAL Data Platform.</figcaption>
 </figure>
 
 Studies from different Data Resources can be filtered and selected on the [Discovery Page](#Discovery) in the Study Filters section (top panel):
 
 <figure markdown>
-  ![Filtering Using Tags](img/data_resources_tags.png){ width="250" }
+  ![Filtering Using Tags](img/data_resources_tags.png){ width="500" }
   <figcaption>Studies can be filtered by Data Resource using their respective tags.</figcaption>
 </figure>
 
