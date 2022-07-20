@@ -1,11 +1,13 @@
 ## Request Access to Register a Study
 
-Step 1: Login to the HEAL Data Platform
+### Step 1: Login to the HEAL Data Platform
 
 <!-- I believe this is the login image currently in the /img dir  -->
 ![Login](img/healdataorg_login.png)
 
-Step 2: From the [Discovery Page](https://healdata.org/discovery), find the study you wish to request access to register.
+### Step 2: Find study
+
+From the [Discovery Page](https://healdata.org/discovery), find the study you wish to request access to register.
 
 - Click on the study to open the Study Page
 - At the top of the Study Page, select **Request Access to Register This Study**; to navigate to the **Study Registration Access Request** form.
@@ -13,7 +15,7 @@ Step 2: From the [Discovery Page](https://healdata.org/discovery), find the stud
 <!-- Insert revised discovery/study page image and update  -->
 ![revised dicovery/study page image](img/image.png)
 
-Step 3: Complete the __Study Registration Access Request__ form
+### Step 3: Complete the **Study Registration Access Request**  Form
 - The **Study Name - Grant Number**; will already be filled in.
 - You will need to provide your name, your email address, institutional affiliation and role on the project/study.
 
