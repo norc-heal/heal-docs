@@ -4,6 +4,10 @@ site_url: https://heal-docs-dev.io
 repo_url: 
 nav:
   - Home: index.md
+  - Study Registration: 
+    - Overview: study_reg_overview.md
+    - Access Request: study_reg_access.md
+    - Form: study_reg_register.md
   - Data and Repositories:
       Types of Hosted Data: hosted_data_types.md
       Data Management and Repositories: data_mgmt_and_repos.md
@@ -28,7 +32,7 @@ theme:
     text: Montserrat
   logo: assets/HEAL_Initiative_White.svg
   features:
-    #- navigation.indexes
+    - navigation.indexes
     - navigation.instant
     #- navigation.tabs
     #- navigation.tabs.sticky
