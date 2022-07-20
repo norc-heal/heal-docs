@@ -6,7 +6,7 @@ To help HEAL investigators in the repository selection process, the HEAL Data St
 The following is a non-exhaustive selection of repositories and resources currently made accessible through or leveraged by the Heal Platform:
 
 <figure markdown>
-  ![Data Resources](img/data_resources.png){ width="600" }
+  ![Data Resources](img/data_resources.png){ width="700" }
   <figcaption>Representation of Data Resources on the HEAL Data Platform.</figcaption>
 </figure>
 
@@ -16,8 +16,5 @@ Studies from different Data Resources can be filtered and selected on the [Disco
   ![Filtering Using Tags](img/data_resources_tags.png){ width="500" }
   <figcaption>Studies can be filtered by Data Resource using their respective tags.</figcaption>
 </figure>
-
-Currently, the HEAL platform makes data available from the following FAIR Data Resources or Repositories:
-
 
 For more information from NIH regarding public access and data sharing, visit [https://heal.nih.gov/about/public-access-data](https://heal.nih.gov/about/public-access-data).
