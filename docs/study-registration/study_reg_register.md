@@ -1,6 +1,7 @@
 ## Register a Study
-
-If you have not already done so, create an account with [CEDAR](https://cedar.metadatacenter.org/) (_choose the Register option to quickly set up an account_).  You will need a CEDAR account to complete the registration process.  _Note that your CEDAR User UUID can be found at the top of your CEDAR profile page_.
+Upon receiving notification that you’ve been granted access to register your study, please proceed with the steps outlined below.
+> As a reminder, you must [request access] (https://norc-heal.github.io/heal-docs/study-registration/study_reg_access/) before you can register your study
+>If you have not already done so, create an account with [CEDAR](https://cedar.metadatacenter.org/) (_choose the 'Register' option to quickly set up an account_).  You will need a CEDAR account to complete the registration process.  _Note that your CEDAR User UUID can be found at the top of your CEDAR profile page_.
 
 ### Step 1:  Login to the HEAL Data Platform 
 
