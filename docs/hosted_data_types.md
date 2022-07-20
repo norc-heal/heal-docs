@@ -1,10 +1,10 @@
 ## Types of Hosted Data
 
-The HEAL Platform provides secure access to data that is the product of opioid research and will be the driving engine for new discovery.
+As part of the NIH HEAL Initiative, the HEAL Platform aims to transform opioid research into a virtual, annotated, searchable catalog where data from different studies can be analyzed, compared, and combined.
 
-On the highest level, the data hosted on the HEAL Platform range from study metadata that describe available datasets at a high-level to subject-level data. The types of data represented are diverse and include scientific research across multiple disciplines, as well as studies related to policy making and community service leadership. For example, researchers can use this single platform to find data ranging from clinical patient care data and public records to “omics” data files and associated sample collection and processing data.
+The data presented on the HEAL Platform are diverse and include scientific research across multiple disciplines. For example, researchers can use this single platform to find clinical patient care data and public records as well as “-omics” data files with associated sample collection and processing data.
 
-The HEAL platform aims to make data more accessible by following the "FAIR" principles:
+The HEAL platform aims to make data more accessible by following the "**FAIR**" principles::
 
 **F**indable
 
@@ -24,3 +24,5 @@ The HEAL platform aims to make data more accessible by following the "FAIR" prin
 **R**eusable
 
 *   Data can be easily reused to facilitate reproducibility of results, development and sharing of new tools, and collaboration between investigators.
+
+FAIR data repositories are traditionally a part of a larger institution established for research, data archiving, and, to serve data users of that organization.
