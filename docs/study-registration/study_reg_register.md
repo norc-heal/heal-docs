@@ -6,7 +6,12 @@ Upon receiving notification that you’ve been granted access to register your s
 
 ### Step 1:  Login to the HEAL Data Platform 
 
-![Login](img/healdataorg_login.png)
+<!-- below here is the markdown format for images and I can't find a way to resize.  commented out to try some different  -->
+
+<!-- ![Login](../img/heal_login.png) -->
+
+<!-- something different -->
+<img src="../img/heal_login.png" width="550" height="250">
 
 ### Step 2: Find the study
 
@@ -29,8 +34,11 @@ Alternate steps to register a study:
 - Choose the study you wish to register from the Study dropdown.  Only those studies you have been approved to register will be displayed in the dropdown.
 - Complete the form as noted above and submit.
 
-<!-- INSERT IMAGE -- change this to what is in word doc and do this for each image -->
-![Registration Form](img/Completed_reg_form.png)
+<!-- below here is the markdown format for images and I can't find a way to resize.  commented out to try some different  -->
+<!-- ![Registration Form](../img/completed_reg_form.png) -->
+
+<!-- something different -->
+<img src="../img/completed_reg_form.png" width="600" height="400">
 
 ### Step 4: Fill out your CEDAR form  
 
