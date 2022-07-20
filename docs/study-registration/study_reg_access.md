@@ -3,7 +3,8 @@
 ### Step 1: Login to the HEAL Data Platform
 
 <!-- I believe this is the login image currently in the /img dir  -->
-![Login](img/healdataorg_login.png)
+![Login](../img/heal_login.png)
+
 
 ### Step 2: Find study
 
@@ -13,7 +14,7 @@ From the [Discovery Page](https://healdata.org/discovery), find the study you wi
 - At the top of the Study Page, select **Request Access to Register This Study**; to navigate to the **Study Registration Access Request** form.
 
 <!-- Insert revised discovery/study page image and update  -->
-![revised dicovery/study page image](img/image.png)
+![Study Page](../img/study_reg_req_access_button.png)
 
 ### Step 3: Complete the **Study Registration Access Request**  Form
 - The **Study Name - Grant Number**; will already be filled in.
