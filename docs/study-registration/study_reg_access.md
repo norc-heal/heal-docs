@@ -26,7 +26,11 @@ From the [Discovery Page](https://healdata.org/discovery), find the study you wi
 - The **Study Name - Grant Number**; will already be filled in.
 - You will need to provide your name, your email address, institutional affiliation and role on the project/study.
 
+<!-- below here is the markdown format for images and I can't find a way to resize.  commented out to try some different  -->
 <!-- Insert form image and update  -->
-![Form sample image](img/image.png)
+<!-- ![Form sample image](../img/study_reg_req_access_form.png) -->
+
+<!-- something different -->
+<img src="../img/study_reg_req_access_form.png" width="550" height="500">
 
 After submitting, you will receive an email indicating the status of your request within one business day. When approved, you will then be able to register your study (link to Register a Study section within documentation itself as opposed to link out)
