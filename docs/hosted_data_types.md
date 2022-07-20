@@ -4,7 +4,7 @@ As part of the NIH HEAL Initiative, the HEAL Platform aims to transform opioid r
 
 The data presented on the HEAL Platform are diverse and include scientific research across multiple disciplines. For example, researchers can use this single platform to find clinical patient care data and public records as well as “-omics” data files with associated sample collection and processing data.
 
-The HEAL platform aims to make data more accessible by following the "**FAIR**" principles::
+The HEAL platform aims to make data more accessible by following the "**FAIR**" principles:
 
 **F**indable
 
