@@ -28,5 +28,4 @@ wish to request access to register.
 
 After submitting, you will receive an email indicating the status of your
 request within one business day. When approved, you will then be able to
-register your study (link to Register a Study section within documentation
-itself as opposed to link out)
+register your study.
