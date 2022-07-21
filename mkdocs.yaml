@@ -4,13 +4,13 @@ site_url: https://heal-docs-dev.io
 repo_url: 
 nav:
   - Home: index.md
-  - Study Registration: 
-    - study-registration/index.md
-    - Access Request: study-registration/study_reg_access.md
-    - Form: study-registration/study_reg_register.md
+  - Study Registration:
+    - study-registration/overview.md
+    - study-registration/requesting-access.md
+    - study-registration/registering-your-study.md
   - Data and Repositories:
-      Types of Hosted Data: hosted_data_types.md
-      Data Management and Repositories: data_mgmt_and_repos.md
+    - Types of Hosted Data: hosted_data_types.md
+    - Data Management and Repositories: data_mgmt_and_repos.md
   - HEAL Platform Features:
     - Login Page: platform_login.md
     - Discovery Page: platform_discovery_page.md
@@ -46,6 +46,7 @@ extra:
   homepage: https://healdata.org
 use_directory_urls: true
 markdown_extensions:
+  - admonition
   - attr_list
   - md_in_html
   - toc:
