@@ -739,24 +739,24 @@
   <h1>Workspaces</h1>
 
 <h2 id="workspaces">Workspaces<a class="headerlink" href="#workspaces" title="Permanent link">&para;</a></h2>
-<p>HEAL Platform workspaces are secure data analysis environments in the cloud that can access data from one or more data resources. By default, Workspaces include Jupyter notebooks, Python and RStudio, but can be configured to host virtually any application, including analysis workflows, data processing pipelines, or data visualization apps.</p>
+<p>HEAL Platform workspaces are secure data analysis environments in the cloud that can access data from one or more data resources. Workspaces include Jupyter notebooks, Python, and RStudio by default but can be configured to host virtually any application, including analysis workflows, data processing pipelines, or data visualization apps. In order to launch a workspace, users will need to request a Gen3 workspace account at "https://healportal.org/". There are two methods to support workspaces: grant-funded accounts paid for by your institution (STRIDES grant) or a STRIDES credit account supported by the NIH initiative. <em>Note, it may take several days for your account to be approved</em>.</p>
 <p>New to Jupyter? Learn more about the popular tool for data scientists on <a href="https://jupyter.org/">Jupyter.org</a> (disclaimer: CTDS is not responsible for the content).</p>
 <h3 id="guideline-to-get-started">Guideline to get started<a class="headerlink" href="#guideline-to-get-started" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
-<p>Users need to log in via <a href="https://healdata.org/login">healdata.org/login</a> to access workspaces.</p>
+<p>Users need to log in via <a href="https://healdata.org/login">healdata.org/login</a> to access workspaces and link their funded account from <a href="https://healportal.org">healportal.org</a>.</p>
 </li>
 <li>
 <p>After navigating to <a href="https://healdata.org/workspace">healdata.org/workspace</a>, users will discover a list of pre-configured virtual machine (VM) images, as shown below.  </p>
 </li>
 </ol>
 <p><img alt="Workspace_flavors" src="../img/workspace_flavors.png" /></p>
-<p>Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom; click <a href="#LinkingAccessTo">here to see how</a>).</p>
+<p>Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom); click <a href="#LinkingAccessTo">here to see how</a>.</p>
 <ul>
-<li>(Generic) Jupyter Notebook with R kernel: Choose this VM if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis.</li>
-<li>(Generic, User-licensed) Stata Notebook: Choose this VM if you are familiar with STATA-based data analysis. This notebook requires a STATA license.</li>
+<li><strong>(Generic) Jupyter Notebook with R kernel:</strong> Choose this VM if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis.</li>
+<li><strong>(Generic, User-licensed) Stata Notebook:</strong> Choose this VM if you are familiar with STATA-based data analysis. This notebook requires a STATA license.</li>
 <li>
-<p>Tutorial Notebooks: Explore our Jupyter Notebook tutorials written in Python or RStudio, which pull data from various sources of the HEAL Data Ecosystem to leverage statistical programs and data analysis tools.  </p>
+<p><strong>Tutorial Notebooks:</strong> Explore our Jupyter Notebook tutorials written in Python or RStudio, which pull data from various sources of the HEAL Data Ecosystem to leverage statistical programs and data analysis tools.  </p>
 <p>All interactive tutorial notebooks can be also found as <a href="https://healdata.org/resource-browser">static version on the Notebook Browser tab</a>; read more in the section <a href="#StaticNotebooks">"Example Analysis"</a>.  </p>
 <p>Feel free to edit and experiment with this collection of notebooks. They are your personal copies!  </p>
 <ul>
@@ -771,17 +771,25 @@
 </li>
 <li>
 <p>After launching, the home folders are displayed, one of which is the user's persistent drive ("pd").  </p>
-<p><img alt="Workspace_data_folder" src="../img/workspace_data_folder.png" /></p>
-<p>The /pd directory is a user’s persistent drive.</p>
 </li>
-<li>
-<p>Select the /pd folder. Only files saved in the /pd directory will remain available after termination of a workspace session.  </p>
-<p><img alt="Workspace_pd_folder" src="../img/workspace_pd_folder.png" /></p>
-<p>New files or licenses should be saved in the the /pd directory if users need to access them after restarting the workspaces.</p>
-</li>
-<li>
-<p>Attention: Any personal files in the folder “data” will be lost. Personal files in the directory /pd will persist.  </p>
-</li>
+</ul>
+<figure>
+<p><img alt="Workspace_data_folder" src="../img/workspace_data_folder.png" />
+  </p>
+<figcaption> The /pd directory is a user’s persistent drive. </figcaption>
+</figure>
+<pre><code>
+</code></pre>
+<ol>
+<li>Select the <strong>/pd</strong> folder. Only files saved in the <strong>/pd</strong> directory will remain available after termination of a workspace session.<br />
+     <figure markdown>
+  <img alt="Workspace_pd_folder" src="../img/workspace_pd_folder.png" />
+<br />
+<figcaption>     New files or licenses should be saved in the the /pd directory if users need to access them after restarting the workspaces. </figcaption></li>
+</ol>
+<p></figure> </p>
+<ul>
+<li><strong>Attention:</strong> Any personal files in the folder “data” will be lost. Personal files in the directory /pd will persist.  </li>
 <li>Do not save files in the "data" and “data/healdata.org” folders.  </li>
 <li>
 <p>The folder “healdata.org” in the “data” folder will host the data files you have exported from the Discovery Page.  </p>
@@ -790,26 +798,39 @@
 <p>Start a new notebook by clicking “New” in the top right corner and choose between Python 3 or R Studio as the base programmatic language.  </p>
 </li>
 </ul>
-<p><img alt="Workspace_new" src="../img/workspace_new.png" /></p>
-<p>Start a new notebook under “New”.</p>
+<figure>
+<p><img alt="Workspace_new" src="../img/workspace_new.png" />
+  </p>
+<figcaption> Start a new notebook under “New”. </figcaption>
+</figure>
+<pre><code>
+</code></pre>
 <ol>
 <li>
-<p>Experiment away! Code blocks are entered in cells, which can be executed individually or all at once. Code documentation and comments can also be entered in cells, and the cell type can be set to support Markdown.  </p>
+<p><strong>Experiment away!</strong> Code blocks are entered in cells, which can be executed individually or all at once. Code documentation and comments can also be entered in cells, and the cell type can be set to support Markdown.  </p>
 <p>Results, including plots, tables, and graphics, can be generated in the workspace and downloaded as files.  </p>
 <p>Users can import data files directly into the Notebook code after selecting files from the <a href="#SelectBringFilesDiscoveryToWorkspace">"Discovery Page"</a>. An example is shown below.  </p>
 </li>
 </ol>
 <p><img alt="workspace_import_manifest" src="../img/workspace_import_manifest.png" />  </p>
 <ol>
-<li>Do not forget to terminate your workspace once your work is finished to be mindful of the cost-intensive computational effort. Note, that Workspaces automatically shut down after 90 minutes of <a href="#AutomaticWorkspaceShutdown">idle time.</a>  </li>
+<li>Do not forget to terminate your workspace once your work is finished to be mindful of the cost-intensive computational effort. <strong>Note, that Workspaces automatically shut down after 90 minutes of <a href="#AutomaticWorkspaceShutdown">idle time.</a></strong>  </li>
 </ol>
-<p><img alt="Workspace_terminate" src="../img/workspace_terminate_2.png" /></p>
-<p>Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs.</p>
+<figure>
+<p><img alt="Workspace_terminate" src="../img/workspace_terminate_2.png" />
+  </p>
+<figcaption> Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs. </figcaption>
+</figure>
+<pre><code>
+</code></pre>
 <p>Further reading: read more about how to download data files into the Workspaces <a href="#DownloadFilesSDKWorkspaces">here</a>.</p>
 <h3 id="upload-save-and-download-filesnotebooks">Upload, save, and download Files/Notebooks<a class="headerlink" href="#upload-save-and-download-filesnotebooks" title="Permanent link">&para;</a></h3>
-<p>Users can upload data files or Notebooks from the local machine to the home directory by clicking on “Upload” and access them in the Notebook (see below).</p>
-<p><img alt="Workspace_upload" src="../img/workspace_upload.png" /></p>
-<p>Upload data files or Notebooks to the workspace by clicking on “Upload” in the top right corner. On the upload screen, find your text file (in this example it is "this_is_a_demo.txt") to upload from your local computer.</p>
+<p>Users can <strong>upload</strong> data files or Notebooks from the local machine to the home directory by clicking on “Upload” and access them in the Notebook (see below).</p>
+<figure>
+<p><img alt="Workspace_upload" src="../img/workspace_upload.png" />
+  </p>
+<figcaption> Upload data files or Notebooks to the workspace by clicking on “Upload” in the top right corner. On the upload screen, find your text file (in this example, it is "this\_is\_a\_demo.txt") to upload from your local computer. </figcaption>
+</figure>
 <p>Then run in the cells, for example:  </p>
 <blockquote>
 <p>import os <br />
@@ -818,43 +839,58 @@ os.chdir('/data') <br />
 demo_df = pd.read_csv('/this_is_a_demo.txt', sep='\t') <br />
 demo_df.head()  </p>
 </blockquote>
-<p>Users can save the notebook by clicking "File" - "Save as", as shown below.</p>
-<p><img alt="workspace_notebook_save" src="../img/workspace_notebook_save.png" /></p>
-<p>Save the notebook under “File” - "Save as".</p>
-<p>Users can download notebooks by clicking "File" - "Download as", as shown below.</p>
-<p><img alt="workspace_notebook_download" src="../img/workspace_notebook_download.png" /></p>
-<p>Download the notebook as ".ipynb".</p>
+<p>Users can <strong>save</strong> the notebook by clicking "File" - "Save as", as shown below.</p>
+<figure>
+<p><img alt="workspace_notebook_save" src="../img/workspace_notebook_save.png" />
+  </p>
+<figcaption> Save the notebook under “File” - "Save as". </figcaption>
+</figure>
+<p>Users can <strong>download</strong> notebooks by clicking "File" - "Download as", as shown below.</p>
+<figure>
+<p><img alt="workspace_notebook_download" src="../img/workspace_notebook_download.png" />
+  </p>
+<figcaption> Download the notebook as ".ipynb". </figcaption>
+</figure>
 <h3 id="environments-languages-and-tools">Environments, Languages, and Tools<a class="headerlink" href="#environments-languages-and-tools" title="Permanent link">&para;</a></h3>
-<p>The following environments are available in the workspaces:</p>
+<p>The following <strong>environments</strong> are available in the workspaces:</p>
 <ul>
 <li>Jupyter<br />
 <img alt="workspace_jupyter_logo" src="../img/workspace_jupyter_logo.png" /></li>
 <li>RStudio<br />
 <img alt="workspace_RStudio_logo" src="../img/workspace_RStudio_logo.png" />  </li>
 </ul>
-<p>The following programmatic languages are available in Jupyter Notebooks:</p>
+<p>The following <strong>programmatic languages</strong> are available in Jupyter Notebooks:</p>
 <ul>
 <li>RStudio (<a href="#PythonRInJupyter">read more</a>)</li>
 <li>Python 3 (<a href="#PythonRInJupyter">read more</a>)</li>
 <li>STATA (<a href="#STATAinNotebooks">read more</a>)</li>
 </ul>
-<p>The following tools are available in Jupyter Notebooks:</p>
+<p>The following <strong>tools</strong> are available in Jupyter Notebooks:</p>
 <ul>
 <li>GitHub (<a href="https://docs.github.com/en">read GitHub documentation</a>)</li>
 </ul>
 <h3 id="python-3-and-rstudio-in-jupyter">Python 3 and RStudio in Jupyter<a class="headerlink" href="#python-3-and-rstudio-in-jupyter" title="Permanent link">&para;</a></h3>
 <p>Both Python 3 and RStudio are available in Jupyter Notebooks.<br />
 Users can expect to be able to use typical Python or RStudio packages, such as PyPI or CRAN. For Python and RStudio, users can start a new notebook under "New", as shown below.</p>
-<p><img alt="Workspace_new" src="../img/workspace_new.png" /></p>
-<p>Find Python 3 or RStudio when starting a new notebook under “New”.</p>
+<figure>
+<p><img alt="Workspace_new" src="../img/workspace_new.png" />
+  </p>
+<figcaption> Find Python 3 or RStudio when starting a new notebook under “New”. </figcaption>
+</figure>
 <h3 id="stata-in-jupyter">STATA in Jupyter<a class="headerlink" href="#stata-in-jupyter" title="Permanent link">&para;</a></h3>
 <p>STATA is available as language in Jupyter notebooks (either in Python or R kernels), but requires a license and a specific workspace.</p>
 <p>Users need to first choose the following workspace "(Generic, User-licensed) Stata Notebook" in order to be able to use STATA:</p>
-<p><img alt="stata_user_licensed" src="../img/stata_user_licensed.png" /></p>
-<p>Select this workspace to use STATA in the notebook.</p>
+<figure>
+<p><img alt="stata_user_licensed" src="../img/stata_user_licensed.png" />
+  </p>
+<figcaption> Select this workspace to use STATA in the notebook. </figcaption>
+</figure>
 <p>Users need to upload a license <code>stata.lic</code> to the /pd folder by selecting "Upload" (top right).</p>
-<p><img alt="stata_lic" src="../img/stata_lic.png" /></p>
-<p>If the upload was successful, the license appears in the directory /pd.</p>
+<figure>
+<p><img alt="stata_lic" src="../img/stata_lic.png" />
+  </p>
+<figcaption> If the upload was successful, the license appears in the directory /pd. </figcaption>
+</figure>
 <p><em>Note</em>, that uploading the license can also be achieved programmatically by opening a new terminal window under "New" - "Terminal", finding the directory /pd by typing: <code>cd pd</code> . Then, create a file using vim: <code>vim stata.lic</code> . This will open the file in the terminal. Users can copy the license, then hit <code>:</code> + <code>wq</code>.</p>
 <p>Then, users need to start a new notebook under "New" (choose either R or Python). Run the following code in the first cell:  </p>
 <blockquote>
@@ -862,8 +898,11 @@ Users can expect to be able to use typical Python or RStudio packages, such as P
 stata_setup.config("/usr/local/stata17", "mp") </p>
 </blockquote>
 <p>This will return the following:</p>
-<p><img alt="stata_setup_imports" src="../img/stata_setup_imports.png" /></p>
-<p>Setup the license in the first cell.</p>
+<figure>
+<p><img alt="stata_setup_imports" src="../img/stata_setup_imports.png" />
+  </p>
+<figcaption> Setup the license in the first cell. </figcaption>
+</figure>
 <p>Users can then begin using the notebook by typing in known STATA commands, for example <code>%% stata . describe</code> .</p>
 <h3 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h3>
 <ul>
@@ -871,11 +910,17 @@ stata_setup.config("/usr/local/stata17", "mp") </p>
 </ul>
 <h3 id="automatic-workspace-shutdown">Automatic Workspace Shutdown<a class="headerlink" href="#automatic-workspace-shutdown" title="Permanent link">&para;</a></h3>
 <p>Workspaces automatically shut down after 90 minutes of idle time and a pop-up window will remind users before the workspace shuts down.</p>
-<p><img alt="workspace_shutdown_sign_2" src="../img/workspace_shutdown_sign_2.png" /></p>
-<p>A pop-up window will remind users to navigate back to the workspaces page in order to save the data.</p>
+<figure>
+<p><img alt="workspace_shutdown_sign_2" src="../img/workspace_shutdown_sign_2.png" />
+  </p>
+<figcaption> A pop-up window will remind users to navigate back to the workspaces page in order to save the data. </figcaption>
+</figure>
 <p>After the workspace has been shut down, users will be notified with the following pop-up window.</p>
-<p><img alt="workspace_shutdown_sign_1" src="../img/workspace_shutdown_sign_1.png" /></p>
-<p>Workspaces automatically shut down after 90 minutes of idle time.</p>
+<figure>
+<p><img alt="workspace_shutdown_sign_1" src="../img/workspace_shutdown_sign_1.png" />
+  </p>
+<figcaption> Workspaces automatically shut down after 90 minutes of idle time. </figcaption>
+</figure>
 
               
             </article>
