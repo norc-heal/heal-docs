@@ -6,9 +6,9 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
 
 ### Guideline to get started
 
-1.  Users need to log in via [healdata.org/login](https://healdata.org/login) to access workspaces and link their funded account from [healportal.org](https://healportal.org).
+1. Users need to log in via [healdata.org/login](https://healdata.org/login) to access workspaces and link their funded account from [healportal.org](https://healportal.org).
   
-2.  After navigating to [healdata.org/workspace](https://healdata.org/workspace), users will discover a list of pre-configured virtual machine (VM) images, as shown below.  
+2. After navigating to [healdata.org/workspace](https://healdata.org/workspace), users will discover a list of pre-configured virtual machine (VM) images, as shown below.  
       
 ![Workspace_flavors](img/workspace_flavors.png)
 
@@ -27,7 +27,7 @@ Available workspaces on the HEAL Platform (top). Users may need to link their ac
     *   _Notebooks in RStudio_: (1) Opioid Environment Toolkit and OEPS
 
   
-3.  Click “Launch” on any of the above workspace flavors to spin up a copy of that VM. Note: Launching the VM may take several minutes.  
+3. Click “Launch” on any of the above workspace flavors to spin up a copy of that VM. Note: Launching the VM may take several minutes.  
       
     ![Workspace_launch](img/workspace_launch.png)
     
@@ -36,13 +36,13 @@ Available workspaces on the HEAL Platform (top). Users may need to link their ac
       
     
   
-4.  After launching, the home folders are displayed, one of which is the user's persistent drive ("pd").  
+4. After launching, the home folders are displayed, one of which is the user's persistent drive ("pd").  
 <figure markdown>
   ![Workspace_data_folder](img/workspace_data_folder.png)
   <figcaption> The /pd directory is a user’s persistent drive. </figcaption>
 </figure>      
     
-5.  Select the **/pd** folder. Only files saved in the **/pd** directory will remain available after termination of a workspace session.  
+5. Select the **/pd** folder. Only files saved in the **/pd** directory will remain available after termination of a workspace session.  
      <figure markdown>
   ![Workspace_pd_folder](img/workspace_pd_folder.png)
   <figcaption>     New files or licenses should be saved in the the /pd directory if users need to access them after restarting the workspaces. </figcaption>
@@ -53,14 +53,14 @@ Available workspaces on the HEAL Platform (top). Users may need to link their ac
 - The folder “healdata.org” in the “data” folder will host the data files you have exported from the Discovery Page.  
 
   
-6.  Start a new notebook by clicking “New” in the top right corner and choose between Python 3 or R Studio as the base programmatic language.  
+6. Start a new notebook by clicking “New” in the top right corner and choose between Python 3 or R Studio as the base programmatic language.  
 <figure markdown>
   ![Workspace_new](img/workspace_new.png)
   <figcaption> Start a new notebook under “New”. </figcaption>
 </figure>     
 
     
-7.  **Experiment away!** Code blocks are entered in cells, which can be executed individually or all at once. Code documentation and comments can also be entered in cells, and the cell type can be set to support Markdown.  
+7. **Experiment away!** Code blocks are entered in cells, which can be executed individually or all at once. Code documentation and comments can also be entered in cells, and the cell type can be set to support Markdown.  
       
     Results, including plots, tables, and graphics, can be generated in the workspace and downloaded as files.  
       
@@ -69,7 +69,7 @@ Available workspaces on the HEAL Platform (top). Users may need to link their ac
 ![workspace_import_manifest](img/workspace_import_manifest.png)  
     
     
-8.  Do not forget to terminate your workspace once your work is finished to be mindful of the cost-intensive computational effort. **Note, that Workspaces automatically shut down after 90 minutes of [idle time.](#AutomaticWorkspaceShutdown)**  
+8. Do not forget to terminate your workspace once your work is finished to be mindful of the cost-intensive computational effort. **Note, that Workspaces automatically shut down after 90 minutes of [idle time.](#AutomaticWorkspaceShutdown)**  
 <figure markdown>
   ![Workspace_terminate](img/workspace_terminate_2.png)
   <figcaption> Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs. </figcaption>
