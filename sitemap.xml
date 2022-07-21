@@ -31,17 +31,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://heal-docs-dev.io/login/</loc>
+         <lastmod>2022-07-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://heal-docs-dev.io/platform_discovery_page/</loc>
          <lastmod>2022-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://heal-docs-dev.io/platform_example_analyses/</loc>
-         <lastmod>2022-07-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://heal-docs-dev.io/platform_login/</loc>
          <lastmod>2022-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
