@@ -6,7 +6,7 @@ nav:
   - Home: index.md
   - Return to Platform: https://healdata.org/
   - Study Registration:
-    - study-registration/overview.md
+    - study-registration/index.md
     - study-registration/requesting-access.md
     - study-registration/registering-your-study.md
   - Data and Repositories:
@@ -35,6 +35,7 @@ theme:
   features:
     - navigation.indexes
     - navigation.instant
+    - navigation.indexes
     #- navigation.tabs
     #- navigation.tabs.sticky
     - navigation.tracking

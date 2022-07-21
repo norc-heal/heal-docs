@@ -1,3 +1,5 @@
+# Study Registration
+
 The purpose of study registration is to link a study in the HEAL Platform to
 several necessary pieces of information, including:
 
