@@ -26,7 +26,7 @@ The HEAL Platform also offers a secure and cost-effective cloud-computing enviro
 The HEAL Platform is powered by the open-source [software “Gen3”](https://ctds.uchicago.edu/gen3) . Gen3 was created by and is actively developed at the University of Chicago’s Center for Translational Data Science (CTDS) with the aim of creating interoperable cloud-based data resources for the scientific research community.
 
 Powered by  
-[![Gen3_logo](img/gen3_grey.png){: style="height:50px"}](https://ctds.uchicago.edu/gen3)
+[![Gen3_logo](img/gen3.png){: style="height:50px"}](https://ctds.uchicago.edu/gen3)
 
 Watch the introduction video to the HEAL Platform below
 
