@@ -6,7 +6,7 @@
 ![](../img/heal_login.png)
 
 
-## Step 2: Find study
+## Step 2: Find your study
 
 From the [Discovery Page](https://healdata.org/discovery), find the study you
 wish to request access to register.
@@ -18,7 +18,7 @@ wish to request access to register.
 ![](../img/study_reg_req_access_button.png)
 
 
-## Step 3: Complete the Study Registration Access Request  Form
+## Step 3: Complete the Study Registration Access Request Form
 
 - The field `Study Name - Grant Number` will already be filled in.
 - You will need to provide your name, your email address, institutional
