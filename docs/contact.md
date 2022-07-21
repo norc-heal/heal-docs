@@ -1,5 +1,10 @@
-
-# Contact
+<!---
+hide:
+  - navigation
+  - toc
+--->
+Contact
+-------
 
 
 Need help? Please contact our [help desk](mailto:heal-support@datacommons.io).
