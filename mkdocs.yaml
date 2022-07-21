@@ -51,7 +51,7 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: True
-      baselevel: 0
+      baselevel: 1
 plugins:
   - search
   - mkdocs-video:
