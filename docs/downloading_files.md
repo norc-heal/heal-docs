@@ -3,7 +3,7 @@ hide:
   - navigation
 --- -->
 
-## Downloading Data Files
+## Data File Downloads
 
 Users can download data files associated with a study by downloading the files directly from the Discovery page, or leveraging the CTDS-owned python software development kit (SDK) and the tool “Gen3-client” if the file size exceeds 250 MB.
 

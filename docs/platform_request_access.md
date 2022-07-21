@@ -1,4 +1,4 @@
-## How to check and request access
+## Check and request access
 
 Users can find out to which projects they have access to by navigating to [the Discovery Page](https://healdata.org/discovery) and by selecting “Data Availability" - "Available" - ”OK” as shown below.
 
