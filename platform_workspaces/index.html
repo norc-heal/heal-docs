@@ -742,13 +742,12 @@
 <p>HEAL Platform workspaces are secure data analysis environments in the cloud that can access data from one or more data resources. Workspaces include Jupyter notebooks, Python, and RStudio by default but can be configured to host virtually any application, including analysis workflows, data processing pipelines, or data visualization apps. In order to launch a workspace, users will need to request a Gen3 workspace account at "https://healportal.org/". There are two methods to support workspaces: grant-funded accounts paid for by your institution (STRIDES grant) or a STRIDES credit account supported by the NIH initiative. <em>Note, it may take several days for your account to be approved</em>.</p>
 <p>New to Jupyter? Learn more about the popular tool for data scientists on <a href="https://jupyter.org/">Jupyter.org</a> (disclaimer: CTDS is not responsible for the content).</p>
 <h3 id="guideline-to-get-started">Guideline to get started<a class="headerlink" href="#guideline-to-get-started" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Workspace access requires authorization. Please contact <a href="mailto:heal-support@data-commons.io">HEAL Support</a> for more information.</p>
+</div>
 <ol>
-<li>
-<p>Users need to log in via <a href="https://healdata.org/login">healdata.org/login</a> to access workspaces and link their funded account from <a href="https://healportal.org">healportal.org</a>.</p>
-</li>
-<li>
-<p>After navigating to <a href="https://healdata.org/workspace">healdata.org/workspace</a>, users will discover a list of pre-configured virtual machine (VM) images, as shown below.  </p>
-</li>
+<li>After navigating to <a href="https://healdata.org/workspace">healdata.org/workspace</a>, users will discover a list of pre-configured virtual machine (VM) images, as shown below.  </li>
 </ol>
 <p><img alt="Workspace_flavors" src="../img/workspace_flavors.png" /></p>
 <p>Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom); click <a href="#LinkingAccessTo">here to see how</a>.</p>
@@ -781,13 +780,13 @@
 <pre><code>
 </code></pre>
 <ol>
-<li>Select the <strong>/pd</strong> folder. Only files saved in the <strong>/pd</strong> directory will remain available after termination of a workspace session.<br />
-     <figure markdown>
-  <img alt="Workspace_pd_folder" src="../img/workspace_pd_folder.png" />
-<br />
-<figcaption>     New files or licenses should be saved in the the /pd directory if users need to access them after restarting the workspaces. </figcaption></li>
+<li>Select the <strong>/pd</strong> folder. Only files saved in the <strong>/pd</strong> directory will remain available after termination of a workspace session.  </li>
 </ol>
-<p></figure> </p>
+<figure>
+<p><img alt="Workspace_pd_folder" src="../img/workspace_pd_folder.png" />
+  </p>
+<figcaption> New files or licenses should be saved in the the /pd directory if users need to access them after restarting the workspaces. </figcaption>
+</figure>
 <ul>
 <li><strong>Attention:</strong> Any personal files in the folder “data” will be lost. Personal files in the directory /pd will persist.  </li>
 <li>Do not save files in the "data" and “data/healdata.org” folders.  </li>
@@ -819,7 +818,7 @@
 <figure>
 <p><img alt="Workspace_terminate" src="../img/workspace_terminate_2.png" />
   </p>
-<figcaption> Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs. </figcaption>
+<figcaption> Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs.</figcaption>
 </figure>
 <pre><code>
 </code></pre>
